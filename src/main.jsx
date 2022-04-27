@@ -1,8 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Index from './pages/Index'
+
 import './assets/styles/tailwind.css'
+import './assets/styles/fonts.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
