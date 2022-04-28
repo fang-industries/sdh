@@ -32,7 +32,7 @@ import {
 
 export default function (props) {
   return (
-    <nav className="sticky top-0 z-50 bg-neutral-100 bg-opacity-60 py-2 px-16 shadow-xl backdrop-blur-2xl backdrop-filter dark:bg-neutral-800 dark:bg-opacity-60">
+    <nav className="sticky top-0 z-50 bg-neutral-100 bg-opacity-60 py-2 px-16 shadow-xl backdrop-blur-[8px] backdrop-filter dark:bg-neutral-800 dark:bg-opacity-60">
       <div className="flex flex-row justify-between">
         <Link to="/">
           <div className="flex flex-row">
@@ -252,7 +252,7 @@ export default function (props) {
               }
               placement="bottom"
               interactive
-              animation="shift-away"  
+              animation="shift-away"
             >
               <button
                 className={`${
