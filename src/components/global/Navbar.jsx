@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
+import "tippy.js/animations/shift-away.css";
 
 import logo from "../../assets/images/logo.png";
 import {
@@ -126,6 +127,7 @@ export default function (props) {
               }
               placement="bottom"
               interactive
+              animation="shift-away"
             >
               <button
                 className={`${
@@ -169,6 +171,7 @@ export default function (props) {
               }
               placement="bottom"
               interactive
+              animation="shift-away"
             >
               <button
                 className={`${
@@ -249,6 +252,7 @@ export default function (props) {
               }
               placement="bottom"
               interactive
+              animation="shift-away"
             >
               <button
                 className={`${
