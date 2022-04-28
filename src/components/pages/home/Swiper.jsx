@@ -13,8 +13,17 @@ import {
   faThumbsUp,
   faDrumstickBite,
 } from "@fortawesome/free-solid-svg-icons";
+import { useState, useEffect } from "react";
 
 export default function () {
+  const [year, setYear] = useState(0);
+  const [nextYear, setNextYear] = useState(1);
+
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+    setNextYear(new Date().getFullYear() + 1);
+  });
+
   return (
     <Swiper
       autoplay={{
@@ -99,7 +108,7 @@ export default function () {
             />
             <div className="my-auto space-y-2">
               <p className="text-lg font-medium text-yellow-400">
-                School Theme 2022/2023
+                School Theme {year}/{nextYear}
               </p>
               <p className="text-2xl font-bold text-yellow-400">
                 <FontAwesomeIcon icon={faDrumstickBite} className="mr-2" />
