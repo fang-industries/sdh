@@ -44,7 +44,9 @@ export default function () {
                 labour between all educators, staff, understudies and guardians.
               </p>
               <div class="font-medium">
-                <div class="text-yellow-500">Timothy Joseph</div>
+                <div class="text-yellow-500">
+                  Timothy Joseph, Dog food taster
+                </div>
                 <div class="text-neutral-700 dark:text-neutral-500">
                   SDH Daan Mogot, Class of 1789
                 </div>
@@ -67,7 +69,9 @@ export default function () {
                 a professional sleeper, all because of the education in SDH.
               </p>
               <div class="font-medium">
-                <div class="text-yellow-500">Alexa Tan</div>
+                <div class="text-yellow-500">
+                  Alexa Tan, Professional sleeper
+                </div>
                 <div class="text-neutral-700 dark:text-neutral-500">
                   SDH Daan Mogot, Class of 1862
                 </div>
@@ -91,7 +95,7 @@ export default function () {
                 provide for my job as a professional snake milker.
               </p>
               <div class="font-medium">
-                <div class="text-yellow-500">TO BE CHANGED</div>
+                <div class="text-yellow-500">TO BE CHANGED, Snake milker</div>
                 <div class="text-neutral-700 dark:text-neutral-500">
                   SDH Daan Mogot, Class of 19359
                 </div>
