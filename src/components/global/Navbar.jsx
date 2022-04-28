@@ -252,7 +252,7 @@ export default function (props) {
               }
               placement="bottom"
               interactive
-              animation="shift-away"
+              animation="shift-away"  
             >
               <button
                 className={`${

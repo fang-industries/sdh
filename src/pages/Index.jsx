@@ -1,7 +1,6 @@
 import Container from "../components/global/Container";
-import Navbar from "../components/global/Navbar";
-
-import logo from "../assets/images/logo.png";
+import Video from "../components/pages/home/Video";
+import Swiper from "../components/pages/home/Swiper";
 
 export default function () {
   return (
@@ -9,7 +8,8 @@ export default function () {
       title="Home"
       head="Sekolah Daging Habibullah | National Chicken School | Indonesia"
     >
-      <img src={logo} alt="logo" />
+      <Video />
+      <Swiper />
     </Container>
   );
 }
