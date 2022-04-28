@@ -33,12 +33,14 @@ export default function (props) {
   return (
     <nav className="sticky top-0 z-50 bg-neutral-100 bg-opacity-60 py-2 px-16 shadow-xl backdrop-blur-2xl backdrop-filter dark:bg-neutral-800 dark:bg-opacity-60">
       <div className="flex flex-row justify-between">
-        <div className="flex flex-row">
-          <img src={logo} className="my-auto h-12 w-12" />
-          <div className="my-auto ml-2 flex flex-col text-sky-500">
-            <p className="text-5xl font-bold tracking-wide">SDH</p>
+        <Link to="/">
+          <div className="flex flex-row">
+            <img src={logo} className="my-auto h-12 w-12" />
+            <div className="my-auto ml-2 flex flex-col text-sky-500">
+              <p className="text-5xl font-bold tracking-wide">SDH</p>
+            </div>
           </div>
-        </div>
+        </Link>
         <div className="my-auto flex flex-row space-x-6">
           <a href="https://instagram.com/actuallypix3l_">
             <FontAwesomeIcon
