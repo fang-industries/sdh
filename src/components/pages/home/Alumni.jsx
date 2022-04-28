@@ -84,8 +84,8 @@ export default function () {
           <div class="flex rounded-xl bg-neutral-100 p-8 dark:bg-neutral-800">
             <img
               class="mx-auto my-auto h-32 w-32 rounded-full object-cover"
-              src="https://cdn.pnxl.dev/sdh/timothy.png"
-              alt="Picture of TO BE CHANGED"
+              src="https://cdn.pnxl.dev/sdh/jovan.png"
+              alt="Picture of Jovannes Adryan"
             />
             <div class="ml-8 flex flex-col justify-between space-y-8 text-left">
               <p class="text-lg font-medium dark:text-neutral-50">
@@ -95,9 +95,9 @@ export default function () {
                 provide for my job as a professional snake milker.
               </p>
               <div class="font-medium">
-                <div class="text-yellow-500">TO BE CHANGED, Snake milker</div>
+                <div class="text-yellow-500">Jovannes Adryan, Snake milker</div>
                 <div class="text-neutral-700 dark:text-neutral-500">
-                  SDH Daan Mogot, Class of 19359
+                  SDH Daan Mogot, Class of 1959
                 </div>
               </div>
             </div>
