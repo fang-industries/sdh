@@ -5,14 +5,14 @@ export default function Container(props) {
   const { children } = props;
   const meta = {
     url: "https://sdh.pnxl.dev",
-    name: "Sekolah Daging Habibullah",
+    name: "Sekolah Daging Habituasi",
     title: props.head
       ? props.head
       : props.title
-      ? props.title + " | " + "Sekolah Daging Habibullah"
-      : "Sekolah Daging Habibullah",
+      ? props.title + " | " + "Sekolah Daging Habituasi"
+      : "Sekolah Daging Habituasi",
     description:
-      "Sekolah Daging Habibullah | National Chicken School | Indonesia",
+      "Sekolah Daging Habituasi | National Chicken School | Indonesia",
     type: "website",
   };
 

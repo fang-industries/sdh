@@ -6,7 +6,7 @@ export default function () {
   return (
     <Container
       title="Home"
-      head="Sekolah Daging Habibullah | National Chicken School | Indonesia"
+      head="Sekolah Daging Habituasi | National Chicken School | Indonesia"
     >
       <Video />
       <Swiper />
