@@ -68,7 +68,7 @@ export default function () {
           <div className="my-auto space-y-2">
             <p className="text-2xl font-bold text-yellow-400">
               <FontAwesomeIcon icon={faShield} className="mr-2" />
-              National Curriculum
+              National Chicken Curry
             </p>
             <p className="text-lg text-neutral-100">
               A National Curriculum is a program of study in schools that is
