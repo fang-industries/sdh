@@ -4,10 +4,10 @@ export default function () {
       <div className="absolute z-10 mx-16">
         <div className="my-64 space-y-4 text-neutral-50">
           <p className="text-4xl font-semibold">Welcome to</p>
-          <p className="text-6xl font-bold">Sekolah Daging Habibullah</p>
+          <p className="text-6xl font-bold">Sekolah Daging Habituasi</p>
           <p className="text-2xl">
-            <span className="bg-yellow-500">&nbsp;&nbsp;</span> Beyond Education
-            - Touching Chicken
+            <span className="bg-yellow-500">&nbsp;&nbsp;</span> Within Education
+            - Roasting Chicken
           </p>
           <button>
             {/* this button doesn't work yet! */}
