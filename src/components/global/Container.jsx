@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 export default function Container(props) {
   const { children } = props;
@@ -58,6 +59,7 @@ export default function Container(props) {
           <main id="content" className="text-sky-900">
             {children}
           </main>
+          <Footer />
         </div>
       </div>
     </div>
