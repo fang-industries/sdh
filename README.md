@@ -1,4 +1,10 @@
-# Website for the ripoff school, Sekolah Daging Habituasi.
+<img width="150" height="150" align="left" src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/icons/logo.png"> 
+
+# Website for the imaginary school, Sekolah Daging Habituasi (SDH).
+[![Vercel deployment status](https://img.shields.io/github/deployments/sekolah-daging-habituasi/web/production?label=deployments&logo=vercel&logoColor=vercel)](https://sdh-ripoff.vercel.app)
+[![Licensed under](https://img.shields.io/github/license/sekolah-daging-habituasi/web)](https://github.com/sekolah-daging-habituasi/web/blob/main/LICENSE)
+[![Website status](https://img.shields.io/website?url=https%3A%2F%2Fsdh.pnxl.dev)](https://sdh.pnxl.dev)
+
 What initially started as an inside joke in my class, spiraled out of control and became a website!
 
 ## Backstory
