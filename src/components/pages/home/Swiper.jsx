@@ -27,8 +27,8 @@ export default function () {
   return (
     <Swiper
       autoplay={{
-        delay: 2500,
-        disableOnInteraction: false,
+        delay: 5000,
+        disableOnInteraction: true,
       }}
       className="h-80 bg-sky-900 px-32"
       effect={"fade"}

@@ -20,8 +20,8 @@ export default function () {
       </div>
       <Swiper
         autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
+          delay: 5000,
+          disableOnInteraction: true,
         }}
         className="mt-8 px-32"
         effect={"fade"}
