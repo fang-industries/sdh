@@ -5,6 +5,7 @@ import About from "../components/pages/home/About";
 import Statistics from "../components/pages/home/Statistics";
 import Alumni from "../components/pages/home/Alumni";
 import News from "../components/pages/home/News";
+import Join from "../components/pages/home/Join";
 
 export default function () {
   return (
@@ -18,6 +19,7 @@ export default function () {
       <Statistics />
       <Alumni />
       <News />
+      <Join />
     </Container>
   );
 }
