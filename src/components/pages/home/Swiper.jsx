@@ -45,8 +45,8 @@ export default function () {
               Our Vision
             </p>
             <p className="text-lg text-neutral-100">
-              We believe in True Knowledge that is shaped through our Faith in
-              Christ that will model a person who has Godly Character.
+              We believe in True Knowledge that is shaped through eating Ayam
+              Goreng Padang that will model a person who has a Godly Habit.
             </p>
           </div>
           <div className="my-auto space-y-2">
@@ -55,9 +55,8 @@ export default function () {
               Our Mission
             </p>
             <p className="text-lg text-neutral-100">
-              Proclaiming the preeminence of Christ and engaging in the
-              Redemptive Restoration of all things in Him through Holistic
-              Education.
+              Proclaiming the preeminence of chickens and engaging in the
+              Redemptive Restoration of all things in Him through eating eggs.
             </p>
           </div>
         </div>
@@ -67,22 +66,23 @@ export default function () {
           <div className="my-auto space-y-2">
             <p className="text-2xl font-bold text-yellow-400">
               <FontAwesomeIcon icon={faChurch} className="mr-2" />
-              Holistic Education
+              Chicken Education
             </p>
             <p className="text-lg text-neutral-100">
               Discovers personality, meaning, and purpose in life through a
-              close relationship with God, nature, local and worldwide networks.
+              close relationship with chickens, habits, local and worldwide
+              networks.
             </p>
           </div>
           <div className="my-auto space-y-2">
             <p className="text-2xl font-bold text-yellow-400">
               <FontAwesomeIcon icon={faShield} className="mr-2" />
-              National Chicken Curry
+              National Curry
             </p>
             <p className="text-lg text-neutral-100">
-              A National Curriculum is a program of study in schools that is
-              intended to guarantee cross-country consistency of substance and
-              guidelines in training.
+              A National Curry is a curry of chicken in schools that is intended
+              to guarantee thick consistency of substance and guidelines in
+              training.
             </p>
           </div>
           <div className="my-auto space-y-2">
