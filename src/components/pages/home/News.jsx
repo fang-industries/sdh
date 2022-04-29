@@ -22,22 +22,21 @@ export default function () {
           stats={{ views: "43", comments: "8", hearts: "35" }}
         />
         <Card
-          img="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/newsletter/export/chicken-roast.png"
-          topic="Parents webinar"
-          title={`"The Secret Ingredients Of A Great Chicken Roast"`}
-          desc="Kegiatan Webinar Sesion 4 kali ini akan lebih special karena dalam
-          teknis penyajian acaranya dikemas..."
-          news="/newsletter/chicken-roast"
-          stats={{ views: "43", comments: "8", hearts: "35" }}
+          img="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/newsletter/export/ambassadors-goreng-padang.png"
+          topic="Song and Logo Contest"
+          title={`Daging Habituasi Theme 2022-2023 "Be Ambassadors for...`}
+          desc="School Theme SDH_SLH is a theme that unites the direction of self-development, curriculum (school ..."
+          news="/newsletter/ambassadors-goreng-padang"
+          stats={{ views: "66", comments: "32", hearts: "10" }}
         />
+        {/* TODO: create newsletter cover for this */}
         <Card
           img="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/newsletter/export/chicken-roast.png"
-          topic="Parents webinar"
-          title={`"The Secret Ingredients Of A Great Chicken Roast"`}
-          desc="Kegiatan Webinar Sesion 4 kali ini akan lebih special karena dalam
-          teknis penyajian acaranya dikemas..."
+          topic="Festivals"
+          title={`Daging Habituasi School Subject Festival 2022`}
+          desc="Hello Shalom Community! Melalui SDH Subject Festival 2022, SDH rindu untuk mendukung pemahaman..."
           news="/newsletter/chicken-roast"
-          stats={{ views: "43", comments: "8", hearts: "35" }}
+          stats={{ views: "51", comments: "49", hearts: "39" }}
         />
       </div>
     </div>
