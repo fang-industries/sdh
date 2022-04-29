@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function () {
   return (
-    <div className="mx-16 mb-16 flex justify-between rounded-xl bg-sky-900 p-8 text-3xl font-semibold dark:text-neutral-50">
+    <div className="mx-16 mb-16 flex justify-between rounded-xl bg-sky-900 p-8 text-3xl font-semibold text-neutral-50">
       <div className="my-auto">
         <p className="">Be a part of our lifelong,</p>
         <p className="">abusive learning community today.</p>
