@@ -4,6 +4,7 @@ import Swiper from "../components/pages/home/Swiper";
 import About from "../components/pages/home/About";
 import Statistics from "../components/pages/home/Statistics";
 import Alumni from "../components/pages/home/Alumni";
+import News from "../components/pages/home/News";
 
 export default function () {
   return (
@@ -16,6 +17,7 @@ export default function () {
       <About />
       <Statistics />
       <Alumni />
+      <News />
     </Container>
   );
 }
