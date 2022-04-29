@@ -17,7 +17,7 @@ export default function () {
     <div className="my-16 mx-16">
       <div className="flex space-x-16">
         <img
-          src="https://cdn.pnxl.dev/sdh/about.webp"
+          src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/pages/home/about.webp"
           alt="About image"
           className="h-[37rem]"
         />

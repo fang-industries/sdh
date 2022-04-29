@@ -18,7 +18,7 @@ export default function () {
         </div>
       </div>
       <video autoPlay loop muted className="w-full opacity-80">
-        <source src="https://cdn.pnxl.dev/sdh/main-bg.mp4" />
+        <source src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/pages/home/main-bg.mp4" />
       </video>
     </div>
   );

@@ -102,7 +102,7 @@ export default function () {
         <div className="flex h-80 items-center justify-center space-x-16 bg-sky-900">
           <div className="my-auto flex flex-row space-x-16">
             <img
-              src="https://cdn.pnxl.dev/sdh/chicken-we-proclaim.png"
+              src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/icons/chicken-we-proclaim.png"
               alt="Chicken We Proclaim icon"
               className="h-48 w-48"
             />

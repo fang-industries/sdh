@@ -13,7 +13,7 @@ export default function () {
       </div>
       <div className="mt-8 grid grid-cols-3 gap-16">
         <Card
-          img="https://cdn.discordapp.com/attachments/969127148243796030/969487322645143582/The_Secret_Ingredients_of_a_Great_Chicken_Roast.png"
+          img="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/newsletter/export/chicken-roast.png"
           topic="Parents webinar"
           title={`"The Secret Ingredients Of A Great Chicken Roast"`}
           desc="Kegiatan Webinar Sesion 4 kali ini akan lebih special karena dalam
@@ -22,7 +22,7 @@ export default function () {
           stats={{ views: "43", comments: "8", hearts: "35" }}
         />
         <Card
-          img="https://cdn.discordapp.com/attachments/969127148243796030/969487322645143582/The_Secret_Ingredients_of_a_Great_Chicken_Roast.png"
+          img="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/newsletter/export/chicken-roast.png"
           topic="Parents webinar"
           title={`"The Secret Ingredients Of A Great Chicken Roast"`}
           desc="Kegiatan Webinar Sesion 4 kali ini akan lebih special karena dalam
@@ -31,7 +31,7 @@ export default function () {
           stats={{ views: "43", comments: "8", hearts: "35" }}
         />
         <Card
-          img="https://cdn.discordapp.com/attachments/969127148243796030/969487322645143582/The_Secret_Ingredients_of_a_Great_Chicken_Roast.png"
+          img="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/newsletter/export/chicken-roast.png"
           topic="Parents webinar"
           title={`"The Secret Ingredients Of A Great Chicken Roast"`}
           desc="Kegiatan Webinar Sesion 4 kali ini akan lebih special karena dalam
