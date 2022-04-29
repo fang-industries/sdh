@@ -29,9 +29,8 @@ export default function () {
           news="/newsletter/ambassadors-goreng-padang"
           stats={{ views: "66", comments: "32", hearts: "10" }}
         />
-        {/* TODO: create newsletter cover for this */}
         <Card
-          img="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/newsletter/export/chicken-roast.png"
+          img="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/newsletter/export/proclaiming-beef.png"
           topic="Festivals"
           title={`Daging Habituasi School Subject Festival 2022`}
           desc="Hello Shalom Community! Melalui SDH Subject Festival 2022, SDH rindu untuk mendukung pemahaman..."
