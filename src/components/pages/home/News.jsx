@@ -33,8 +33,8 @@ export default function () {
           img="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/newsletter/export/proclaiming-beef.png"
           topic="Festivals"
           title={`Daging Habituasi School Subject Festival 2022`}
-          desc="Hello Shalom Community! Melalui SDH Subject Festival 2022, SDH rindu untuk mendukung pemahaman..."
-          news="/newsletter/chicken-roast"
+          desc="Hello Daging Community! Melalui SDH Subject Festival 2022, SDH rindu untuk mendukung pemahaman..."
+          news="/newsletter/proclaiming-beef"
           stats={{ views: "51", comments: "49", hearts: "39" }}
         />
       </div>
