@@ -13,13 +13,13 @@ export default function () {
       title="Home"
       head="Sekolah Daging Habituasi | National Chicken School | Indonesia"
     >
-      <Video />
+      {/* <Video />
       <Swiper />
       <About />
       <Statistics />
       <Alumni />
       <News />
-      <Join />
+      <Join /> */}
     </Container>
   );
 }
