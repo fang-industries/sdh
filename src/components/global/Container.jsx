@@ -56,7 +56,7 @@ export default function Container(props) {
       <div className="bg-neutral-50 dark:bg-neutral-900">
         <div className="flex h-full flex-col justify-between">
           <Navbar active={props.title.toLowerCase().replace(" ", "")} />
-          <main id="content" className="text-sky-900">
+          <main id="content" className="text-sky-900 dark:text-neutral-50">
             {children}
           </main>
           <Footer />

@@ -7,9 +7,7 @@ export default function () {
         <p className="text-3xl font-semibold text-sky-500">
           Latest News & Events
         </p>
-        <p className="text-4xl font-bold tracking-wide dark:text-neutral-50">
-          What&apos;s on SDH
-        </p>
+        <p className="text-4xl font-bold tracking-wide">What&apos;s on SDH</p>
       </div>
       <div className="mt-8 grid grid-cols-3 gap-16">
         <Card

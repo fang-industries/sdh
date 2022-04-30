@@ -17,7 +17,7 @@ export default function (props) {
       />
       <div class="mt-8 flex flex-col justify-between space-y-2 text-left">
         <p class="text-yellow-500">{props.topic}</p>
-        <p class="text-lg font-medium dark:text-neutral-50">{props.title}</p>
+        <p class="text-lg font-medium">{props.title}</p>
         <p class="text-sky-600 dark:text-neutral-300">{props.desc}</p>
         <Link
           to={props.news}
@@ -28,7 +28,7 @@ export default function (props) {
         </Link>
       </div>
       <div className="my-8 border-2 border-b border-neutral-200 dark:border-neutral-700"></div>
-      <div class="flex space-x-4 text-left dark:text-neutral-50">
+      <div class="flex space-x-4 text-left">
         <p>
           <FontAwesomeIcon icon={faEye} /> {props.stats.views}
         </p>

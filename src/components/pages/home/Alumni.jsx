@@ -14,9 +14,7 @@ export default function () {
         <p className="text-3xl font-semibold text-sky-500">
           Featuring Outstanding
         </p>
-        <p className="text-4xl font-bold tracking-wide dark:text-neutral-50">
-          Alumni
-        </p>
+        <p className="text-4xl font-bold tracking-wide">Alumni</p>
       </div>
       <Swiper
         autoplay={{
@@ -38,7 +36,7 @@ export default function () {
               alt="Picture of Timothy Joseph"
             />
             <div class="ml-8 flex flex-col justify-between space-y-8 text-left">
-              <p class="text-lg font-medium dark:text-neutral-50">
+              <p class="text-lg font-medium">
                 SDH shows discipline and highly value Ayam Goreng Padang. Since
                 the start, SDH has consistently has had the option to show great
                 labour between all educators, staff, understudies and guardians.
@@ -47,7 +45,7 @@ export default function () {
                 <div class="text-yellow-500">
                   Timothy Joseph, Dog food taster
                 </div>
-                <div class="text-neutral-700 dark:text-neutral-500">
+                <div class="text-neutral-7000">
                   SDH Daan Mogot, Class of 1789
                 </div>
               </div>
@@ -62,7 +60,7 @@ export default function () {
               alt="Picture of Alexa Tan"
             />
             <div class="ml-8 flex flex-col justify-between space-y-8 text-left">
-              <p class="text-lg font-medium dark:text-neutral-50">
+              <p class="text-lg font-medium">
                 I studied at SDH Daan Mogot since I was a toddler until I was
                 349 years old, same as my siblings. I&apos;ve experienced a lot
                 of great things at this school. And here I am, finding myself as
@@ -72,7 +70,7 @@ export default function () {
                 <div class="text-yellow-500">
                   Alexa Tan, Professional sleeper
                 </div>
-                <div class="text-neutral-700 dark:text-neutral-500">
+                <div class="text-neutral-7000">
                   SDH Daan Mogot, Class of 1862
                 </div>
               </div>
@@ -88,7 +86,7 @@ export default function () {
               alt="Picture of Jovannes Adryan"
             />
             <div class="ml-8 flex flex-col justify-between space-y-8 text-left">
-              <p class="text-lg font-medium dark:text-neutral-50">
+              <p class="text-lg font-medium">
                 SDH has known for its chicken education system and indeed they
                 fulfill it. SDH has changed and shaped many aspects in my life.
                 Academically, SDH gave me the push to work hard labours and
@@ -96,7 +94,7 @@ export default function () {
               </p>
               <div class="font-medium">
                 <div class="text-yellow-500">Jovannes Adryan, Snake milker</div>
-                <div class="text-neutral-700 dark:text-neutral-500">
+                <div class="text-neutral-7000">
                   SDH Daan Mogot, Class of 1959
                 </div>
               </div>

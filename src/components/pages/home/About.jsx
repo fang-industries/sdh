@@ -26,21 +26,19 @@ export default function () {
             <div className="flex flex-row">
               <p className="text-3xl font-semibold text-sky-500">About</p>
             </div>
-            <p className="text-4xl font-bold dark:text-neutral-50">
-              Daging Habituasi School
-            </p>
+            <p className="text-4xl font-bold">Daging Habituasi School</p>
           </div>
           <p className="rounded bg-yellow-500 px-3 text-lg font-semibold tracking-wide text-white">
             We build in a chicken-frying way.
           </p>
           <div className="space-y-4">
-            <p className="dark:text-neutral-50">
+            <p className="">
               SDH is a network of chicken schools under the Pabrik Roti Hutan
               Education Foundation that offers K-12 education. Starting in 1762
               in Jakarta, SDH currently has 2 campuses throughout Indonesia,
               with more than 10,000,000 students.
             </p>
-            <p className="dark:text-neutral-50">
+            <p className="">
               We are committed to developing a meat-loving community where
               students learn to love meat and the people around them. Here's a
               little sneak peek of our community. We do hope that you consider
@@ -48,7 +46,7 @@ export default function () {
             </p>
           </div>
           <div>
-            <div className="grid grid-cols-3 gap-4 dark:text-neutral-50">
+            <div className="grid grid-cols-3 gap-4">
               <p>
                 <FontAwesomeIcon icon={faArrowRight} className="mr-2" />
                 Inexperienced faculty and teachers.
@@ -77,7 +75,7 @@ export default function () {
           </div>
           <div className="border-2 border-b border-neutral-200 dark:border-neutral-800"></div>
           <div>
-            <div className="flex justify-between dark:text-neutral-50">
+            <div className="flex justify-between">
               <div className="flex">
                 <FontAwesomeIcon
                   icon={faHandHoldingHeart}
