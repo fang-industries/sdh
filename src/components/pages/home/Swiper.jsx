@@ -30,7 +30,7 @@ export default function () {
         delay: 5000,
         disableOnInteraction: true,
       }}
-      className="h-80 bg-sky-900 px-32"
+      className="hidden h-80 bg-sky-900 px-32 md:block"
       effect={"fade"}
       loop={true}
       modules={[Autoplay, EffectFade, Navigation, Pagination]}
