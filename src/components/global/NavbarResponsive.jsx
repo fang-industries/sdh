@@ -512,7 +512,7 @@ export default function (props) {
                         icon={faUserGraduate}
                         className="my-auto"
                       />
-                      <p className="font-medium">Academic Overview</p>
+                      <p className="font-medium">Overview</p>
                     </div>
                   </div>
                 </Link>
