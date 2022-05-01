@@ -86,11 +86,17 @@ export default function (props) {
           Made with <FontAwesomeIcon icon={faHeart} /> and lots of laughs by
           Jason and the crew.
         </div>
-        <div
-          className="text-center text-yellow-400"
-          style={{ fontFamily: "Klee One" }}
-        >
-          ありがとう
+        <div className="space-y-2">
+          <div
+            className="text-center text-yellow-400"
+            style={{ fontFamily: "Klee One" }}
+          >
+            ありがとう
+          </div>
+          <div className="text-center text-xs text-yellow-400">
+            <p>If it wasn't obvious enough, this website is a joke</p>
+            <p>for a fictional school that DOES NOT exist.</p>
+          </div>
         </div>
       </div>
     </footer>
