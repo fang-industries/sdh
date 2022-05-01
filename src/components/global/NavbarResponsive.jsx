@@ -67,7 +67,7 @@ export default function (props) {
               transition={{ duration: 0.2 }}
               className={`${
                 active ? "" : "hidden"
-              } fixed z-10 h-full w-full cursor-default bg-neutral-900 bg-opacity-50 dark:bg-neutral-800 dark:bg-opacity-50`}
+              } fixed z-10 h-full w-full cursor-default bg-neutral-900 bg-opacity-50 backdrop-blur-[8px] dark:bg-neutral-800 dark:bg-opacity-50`}
               onClick={tapped}
             ></motion.button>
           )}
