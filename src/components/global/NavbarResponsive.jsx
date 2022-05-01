@@ -526,7 +526,7 @@ export default function (props) {
                   </div>
                 </Link>
                 <div className="mx-2 border-b border-neutral-300 dark:border-neutral-700"></div>
-                <Link to="/education/kindergarten">
+                <Link to="/education/primary">
                   <div className="py-3 px-4">
                     <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon
@@ -538,7 +538,7 @@ export default function (props) {
                   </div>
                 </Link>
                 <div className="mx-2 border-b border-neutral-300 dark:border-neutral-700"></div>
-                <Link to="/education/kindergarten">
+                <Link to="/education/junior">
                   <div className="py-3 px-4">
                     <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon icon={faBookOpen} className="my-auto" />
@@ -547,7 +547,7 @@ export default function (props) {
                   </div>
                 </Link>
                 <div className="mx-2 border-b border-neutral-300 dark:border-neutral-700"></div>
-                <Link to="/education/kindergarten">
+                <Link to="/education/senior">
                   <div className="py-3 px-4">
                     <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon
@@ -559,7 +559,7 @@ export default function (props) {
                   </div>
                 </Link>
                 <div className="mx-2 border-b border-neutral-300 dark:border-neutral-700"></div>
-                <Link to="/education/kindergarten">
+                <Link to="/education/activities">
                   <div className="py-3 px-4">
                     <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon icon={faShapes} className="my-auto" />
