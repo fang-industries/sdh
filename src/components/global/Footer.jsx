@@ -94,29 +94,25 @@ export default function (props) {
           Made with <FontAwesomeIcon icon={faHeart} /> and lots of laughs by
           Jason and the crew.
         </div>
-        <div className="space-y-2">
-          <div
-            className="text-center text-yellow-400"
-            style={{ fontFamily: "Klee One" }}
-          >
-            ありがとう
-          </div>
-          <div
-            className="text-center text-[0.6rem] text-neutral-400"
-            style={{ fontFamily: "Comic Sans MS" }}
-          >
-            <p>
-              pls contact me first at{" "}
-              <a
-                href="mailto:jason@pnxl.dev"
-                className="underline hover:decoration-yellow-500"
-              >
-                jason@pnxl.dev
-              </a>{" "}
-              before taking any legal action for takedown ty
-            </p>
-          </div>
+        <div
+          className="text-center text-yellow-400"
+          style={{ fontFamily: "Klee One" }}
+        >
+          ありがとう
         </div>
+        <p
+          className="text-center text-[0.6rem] text-neutral-400"
+          style={{ fontFamily: "Comic Sans MS" }}
+        >
+          pls contact me first at{" "}
+          <a
+            href="mailto:jason@pnxl.dev"
+            className="underline hover:decoration-yellow-500"
+          >
+            jason@pnxl.dev
+          </a>{" "}
+          before taking any legal action for takedown ty
+        </p>
       </div>
     </footer>
   );
