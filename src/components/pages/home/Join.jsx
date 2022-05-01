@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export default function () {
   return (
-    <div className="mx-4 mb-8 justify-between space-y-8 rounded-xl bg-[url('https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80')] bg-cover bg-center p-8 font-semibold text-neutral-50 md:mx-16 md:mb-16 md:flex md:space-y-0">
+    <div className="mx-4 mb-8 justify-between space-y-8 rounded-xl bg-[url('https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/pages/home/join.jpg')] bg-cover bg-center p-8 font-semibold text-neutral-50 md:mx-16 md:mb-16 md:flex md:space-y-0">
       <div className="my-auto text-2xl">
         <p>Be a part of our lifelong,</p>
         <p>abusive learning community today.</p>
