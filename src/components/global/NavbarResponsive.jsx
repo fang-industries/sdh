@@ -4,6 +4,7 @@ import { useState } from "react";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import "tippy.js/animations/shift-away.css";
+import { motion, AnimatePresence } from "framer-motion";
 
 import logo from "../../assets/images/logo.png";
 import {
@@ -36,12 +37,34 @@ export default function (props) {
 
   return (
     <nav className="sticky top-0 z-50">
-      <div className={`${active ? "" : "hidden"} md:hidden`}>
-        <button
-          className="fixed z-10 h-full w-full cursor-default bg-neutral-900 bg-opacity-50 dark:bg-neutral-800 dark:bg-opacity-50"
-          onClick={tapped}
-        ></button>
-        <div className="fixed z-20 h-full w-2/3 bg-neutral-50 dark:bg-neutral-900 md:hidden"></div>
+      <div className="md:hidden">
+        <AnimatePresence>
+          {active && (
+            <motion.button
+              exit={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              className={`${
+                active ? "" : "hidden"
+              } fixed z-10 h-full w-full cursor-default bg-neutral-900 bg-opacity-50 dark:bg-neutral-800 dark:bg-opacity-50`}
+              onClick={tapped}
+            ></motion.button>
+          )}
+        </AnimatePresence>
+        <AnimatePresence>
+          {active && (
+            <motion.div
+              className={`${
+                active ? "" : "hidden"
+              } fixed z-20 h-full w-2/3 bg-neutral-50 dark:bg-neutral-900 md:hidden`}
+              exit={{ x: "-100%" }}
+              animate={{ x: 0 }}
+              initial={{ x: "-100%" }}
+              transition={{ type: "tween", duration: 0.2 }}
+            ></motion.div>
+          )}
+        </AnimatePresence>
       </div>
       <div className=" bg-neutral-100 bg-opacity-60 py-4 px-4 shadow-xl backdrop-blur-[8px] backdrop-filter dark:bg-neutral-800 dark:bg-opacity-60 md:hidden">
         <div className="flex flex-row justify-between">
