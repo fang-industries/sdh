@@ -2,7 +2,7 @@ import Card from "../../modules/pages/home/news/Card";
 
 export default function () {
   return (
-    <div className="py-16 px-4 md:px-16">
+    <div className="py-8 px-4 md:py-16 md:px-16">
       <div className="space-y-2 text-center">
         <p className="text-3xl font-semibold text-sky-500">
           Latest News & Events
