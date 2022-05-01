@@ -83,7 +83,7 @@ export default function (props) {
                       props.active === "home" ? "font-bold text-yellow-500" : ""
                     } py-3 px-4`}
                   >
-                    <div className="flex flex-row justify-between">
+                    <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon icon={faHome} className="my-auto" />
                       <p className="font-medium">Home</p>
                     </div>
@@ -98,7 +98,7 @@ export default function (props) {
                         : ""
                     } py-3 px-4`}
                   >
-                    <div className="flex flex-row justify-between">
+                    <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon
                         icon={faCircleInfo}
                         className="my-auto"
@@ -116,7 +116,7 @@ export default function (props) {
                         : ""
                     } py-3 px-4`}
                   >
-                    <div className="flex flex-row justify-between">
+                    <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon
                         icon={faGraduationCap}
                         className="my-auto"
@@ -134,7 +134,7 @@ export default function (props) {
                         : ""
                     } py-3 px-4`}
                   >
-                    <div className="flex flex-row justify-between">
+                    <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon
                         icon={faChalkboard}
                         className="my-auto"
@@ -152,7 +152,7 @@ export default function (props) {
                         : ""
                     } py-3 px-4`}
                   >
-                    <div className="flex flex-row justify-between">
+                    <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon icon={faComments} className="my-auto" />
                       <p className="font-medium">Community</p>
                     </div>
@@ -167,7 +167,7 @@ export default function (props) {
                         : ""
                     } py-3 px-4`}
                   >
-                    <div className="flex flex-row justify-between">
+                    <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon icon={faNewspaper} className="my-auto" />
                       <p className="font-medium">Newspaper</p>
                     </div>
@@ -182,7 +182,7 @@ export default function (props) {
                         : ""
                     } py-3 px-4`}
                   >
-                    <div className="flex flex-row justify-between">
+                    <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon
                         icon={faMicrophone}
                         className="my-auto"
