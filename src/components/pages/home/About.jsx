@@ -19,7 +19,7 @@ export default function () {
         <img
           src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/pages/home/about.webp"
           alt="About image"
-          className="aspect-square h-fit object-cover md:aspect-auto md:h-[37rem]"
+          className="aspect-square h-fit rounded-xl object-cover md:aspect-auto md:h-[37rem]"
         />
         <div className="space-y-8">
           <div>
