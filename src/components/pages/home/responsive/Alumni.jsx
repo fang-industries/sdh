@@ -31,7 +31,7 @@ export default function () {
             </p>
             <div className="font-medium">
               <div className="text-yellow-500">
-                Timothy Joseph, Dog food taster
+                Timothy Joseph
               </div>
               <div className="text-neutral-7000">
                 SDH Daan Mogot, Class of 1789
@@ -54,7 +54,7 @@ export default function () {
             </p>
             <div className="font-medium">
               <div className="text-yellow-500">
-                Alexa Tan, Professional sleeper
+                Alexa Tan
               </div>
               <div className="text-neutral-7000">
                 SDH Daan Mogot, Class of 1862
@@ -77,7 +77,7 @@ export default function () {
             </p>
             <div className="font-medium">
               <div className="text-yellow-500">
-                Jovannes Adryan, Snake milker
+                Jovannes Adryan
               </div>
               <div className="text-neutral-7000">
                 SDH Daan Mogot, Class of 1959
