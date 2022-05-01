@@ -14,12 +14,12 @@ export default function () {
   });
 
   return (
-    <div className="my-16 mx-16">
-      <div className="flex space-x-16">
+    <div className="my-8 mx-4 md:my-16 md:mx-16">
+      <div className="space-y-8 md:flex md:space-x-16 md:space-y-0">
         <img
           src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/pages/home/about.webp"
           alt="About image"
-          className="h-[37rem]"
+          className="aspect-square h-fit object-cover md:aspect-auto md:h-[37rem]"
         />
         <div className="space-y-8">
           <div>
@@ -46,7 +46,7 @@ export default function () {
             </p>
           </div>
           <div>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid gap-4 md:grid-cols-3">
               <p>
                 <FontAwesomeIcon icon={faArrowRight} className="mr-2" />
                 Inexperienced faculty and teachers.
@@ -75,7 +75,7 @@ export default function () {
           </div>
           <div className="border-2 border-b border-neutral-200 dark:border-neutral-800"></div>
           <div>
-            <div className="flex justify-between">
+            <div className="md:flex md:justify-between md:space-y-0">
               <div className="flex">
                 <FontAwesomeIcon
                   icon={faHandHoldingHeart}
@@ -88,7 +88,7 @@ export default function () {
               </div>
               <Link to="/about">
                 {/* this button doesn't work yet! */}
-                <p className="transform rounded-full border-2 border-white bg-neutral-300 bg-opacity-50 px-3 py-2 text-lg duration-300 ease-in-out hover:-translate-y-0.5 hover:border-yellow-500 hover:bg-yellow-500 hover:text-neutral-50 dark:bg-neutral-500">
+                <p className="mt-8 transform rounded-full border-2 border-white bg-neutral-300 bg-opacity-50 px-3 py-2 text-lg duration-300 ease-in-out hover:-translate-y-0.5 hover:border-yellow-500 hover:bg-yellow-500 hover:text-neutral-50 dark:bg-neutral-500 dark:bg-opacity-50">
                   Learn More
                 </p>
               </Link>

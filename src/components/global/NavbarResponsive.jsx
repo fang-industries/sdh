@@ -43,7 +43,7 @@ export default function (props) {
         ></button>
         <div className="fixed z-20 h-full w-2/3 bg-neutral-50 dark:bg-neutral-900 md:hidden"></div>
       </div>
-      <div className=" bg-neutral-100 bg-opacity-60 py-2 px-4 shadow-xl backdrop-blur-[8px] backdrop-filter dark:bg-neutral-800 dark:bg-opacity-60 md:hidden">
+      <div className=" bg-neutral-100 bg-opacity-60 py-4 px-4 shadow-xl backdrop-blur-[8px] backdrop-filter dark:bg-neutral-800 dark:bg-opacity-60 md:hidden">
         <div className="flex flex-row justify-between">
           <Link to="/">
             <div className="flex flex-row">

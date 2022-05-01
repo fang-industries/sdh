@@ -1,6 +1,8 @@
 import Container from "../components/global/Container";
 import Video from "../components/pages/home/Video";
+import VideoResponsive from "../components/pages/home/responsive/Video";
 import Swiper from "../components/pages/home/Swiper";
+import SwiperResponsive from "../components/pages/home/responsive/Theme";
 import About from "../components/pages/home/About";
 import Statistics from "../components/pages/home/Statistics";
 import Alumni from "../components/pages/home/Alumni";
@@ -13,10 +15,12 @@ export default function () {
       title="Home"
       head="Sekolah Daging Habituasi | National Chicken School | Indonesia"
     >
-      {/* <Video />
+      <Video />
+      <VideoResponsive />
       <Swiper />
+      <SwiperResponsive />
       <About />
-      <Statistics />
+      {/* <Statistics />
       <Alumni />
       <News />
       <Join /> */}

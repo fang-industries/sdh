@@ -59,7 +59,7 @@ export default function (props) {
       </div>
       <div className="space-y-4 bg-[rgb(8,46,68)] px-4 py-8 text-neutral-50 md:px-16">
         <div className="text-center">
-          <div className="space-y-2">
+          <div className="md:space-y-2">
             <p className="text-lg font-medium">
               This website is licensed under the{" "}
               <a

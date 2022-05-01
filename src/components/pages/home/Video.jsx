@@ -1,6 +1,6 @@
 export default function () {
   return (
-    <div>
+    <div className="hidden md:block">
       <div className="absolute z-10 mx-16">
         <div className="my-64 space-y-4 text-neutral-50">
           <p className="text-4xl font-semibold">Welcome to</p>
