@@ -14,7 +14,7 @@ export default function () {
         </div>
         <button>
           {/* this button doesn't work yet! */}
-          <p className="transform rounded-full border-2 border-white bg-neutral-500 bg-opacity-50 px-3 py-2 text-lg duration-300 ease-in-out hover:-translate-y-0.5 hover:border-sky-500 hover:bg-sky-500">
+          <p className="transform rounded-full border-2 border-white bg-neutral-500 bg-opacity-50 px-3 py-2 text-lg backdrop-blur-sm duration-300 ease-in-out hover:-translate-y-0.5 hover:border-sky-500 hover:bg-sky-500">
             Enroll Now
           </p>
         </button>
