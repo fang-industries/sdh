@@ -209,7 +209,7 @@ export default function (props) {
                     </div>
                   </Link>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
-                  <Link to="/education/kindergarten">
+                  <Link to="/education/primary">
                     <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faAppleWhole}
@@ -219,7 +219,7 @@ export default function (props) {
                     </div>
                   </Link>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
-                  <Link to="/education/kindergarten">
+                  <Link to="/education/junior">
                     <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faBookOpen}
@@ -229,7 +229,7 @@ export default function (props) {
                     </div>
                   </Link>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
-                  <Link to="/education/kindergarten">
+                  <Link to="/education/senior">
                     <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faUserGraduate}
@@ -239,7 +239,7 @@ export default function (props) {
                     </div>
                   </Link>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
-                  <Link to="/education/kindergarten">
+                  <Link to="/education/activities">
                     <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faShapes}
