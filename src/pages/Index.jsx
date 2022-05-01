@@ -24,8 +24,8 @@ export default function () {
       <Statistics />
       <Alumni />
       <AlumniResponsive />
-      {/* <News />
-      <Join /> */}
+      <News />
+      <Join />
     </Container>
   );
 }

@@ -2,14 +2,14 @@ import Card from "../../modules/pages/home/news/Card";
 
 export default function () {
   return (
-    <div className="py-16 px-16">
+    <div className="py-16 px-4 md:px-16">
       <div className="space-y-2 text-center">
         <p className="text-3xl font-semibold text-sky-500">
           Latest News & Events
         </p>
         <p className="text-4xl font-bold tracking-wide">What&apos;s on SDH</p>
       </div>
-      <div className="mt-8 grid grid-cols-3 gap-16">
+      <div className="mt-8 grid gap-8 md:grid-cols-3 md:gap-16">
         <Card
           img="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/newsletter/export/chicken-roast.png"
           topic="Parents webinar"
