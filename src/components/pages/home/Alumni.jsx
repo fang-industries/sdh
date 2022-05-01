@@ -46,7 +46,7 @@ export default function () {
                   Timothy Joseph, Dog food taster
                 </div>
                 <div className="text-neutral-7000">
-                  SDH Daan Mogot, Class of 1789
+                  SDH Karawaci, Class of 1789
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ export default function () {
                   Alexa Tan, Professional sleeper
                 </div>
                 <div className="text-neutral-7000">
-                  SDH Daan Mogot, Class of 1862
+                  SDH Malang, Class of 1862
                 </div>
               </div>
             </div>
