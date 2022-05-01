@@ -569,7 +569,7 @@ export default function (props) {
                 </Link>
               </div>
               <div>
-                <button onClick={tappedAdmissions}>
+                <button onClick={tappedEducation}>
                   <div className="py-3 px-4">
                     <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon
