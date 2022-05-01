@@ -16,7 +16,7 @@ export default function () {
         </p>
         <p className="text-4xl font-bold tracking-wide">Alumni</p>
       </div>
-      <div className="mt-8 grid space-y-4">
+      <div className="mt-8 grid gap-8">
         <div class="rounded-xl bg-neutral-100 p-8 dark:bg-neutral-800">
           <img
             class="mx-auto mb-8 h-32 w-32 rounded-full object-cover"
