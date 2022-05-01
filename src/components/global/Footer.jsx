@@ -97,6 +97,21 @@ export default function (props) {
             <p>If it wasn't obvious enough, this website is a joke</p>
             <p>for a fictional school that DOES NOT exist.</p>
           </div>
+          <div
+            className="text-center text-[0.6rem] text-neutral-400"
+            style={{ fontFamily: "Comic Sans MS" }}
+          >
+            <p>
+              pls contact me first at{" "}
+              <a
+                href="mailto:jason@pnxl.dev"
+                className="underline hover:decoration-yellow-500"
+              >
+                jason@pnxl.dev
+              </a>{" "}
+              before taking any legal action for takedown ty
+            </p>
+          </div>
         </div>
       </div>
     </footer>
