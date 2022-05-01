@@ -32,7 +32,7 @@ import {
 
 export default function (props) {
   return (
-    <nav className="sticky top-0 z-50 hidden bg-neutral-100 bg-opacity-60 py-2 px-16 shadow-xl backdrop-blur-[8px] backdrop-filter dark:bg-neutral-800 dark:bg-opacity-60 md:block">
+    <nav className="sticky top-0 z-50 hidden bg-neutral-100 bg-opacity-60 py-4 px-16 shadow-xl backdrop-blur-[8px] backdrop-filter dark:bg-neutral-800 dark:bg-opacity-60 md:block">
       <div className="flex flex-row justify-between">
         <Link to="/">
           <div className="flex flex-row">

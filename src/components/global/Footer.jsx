@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function (props) {
   return (
     <footer>
-      <div className="space-y-8 bg-sky-900 px-4 py-16 text-yellow-500 md:px-16">
+      <div className="space-y-8 bg-sky-900 px-4 py-8 text-yellow-500 md:px-16">
         <div className="flex flex-row justify-center">
           <a
             href="#"
@@ -57,7 +57,7 @@ export default function (props) {
           </div>
         </div>
       </div>
-      <div className="space-y-8 bg-[rgb(8,46,68)] px-4 py-16 text-neutral-50 md:px-16">
+      <div className="space-y-4 bg-[rgb(8,46,68)] px-4 py-8 text-neutral-50 md:px-16">
         <div className="text-center">
           <div className="space-y-2">
             <p className="text-lg font-medium">
