@@ -74,25 +74,23 @@ export default function () {
             </div>
           </div>
           <div className="border-2 border-b border-neutral-200 dark:border-neutral-800"></div>
-          <div>
-            <div className="md:flex md:justify-between md:space-y-0">
-              <div className="flex">
-                <FontAwesomeIcon
-                  icon={faHandHoldingHeart}
-                  className="my-auto mr-4 text-4xl text-yellow-500"
-                />
-                <div className="flex flex-col">
-                  <p className="text-xl font-semibold">{years} years of</p>
-                  <p>education experience and counting...</p>
-                </div>
+          <div className="md:flex md:justify-between">
+            <div className="flex">
+              <FontAwesomeIcon
+                icon={faHandHoldingHeart}
+                className="my-auto mr-4 text-4xl text-yellow-500"
+              />
+              <div className="flex flex-col">
+                <p className="text-xl font-semibold">{years} years of</p>
+                <p>education experience and counting...</p>
               </div>
-              <Link to="/about">
-                {/* this button doesn't work yet! */}
-                <p className="mt-8 transform rounded-full border-2 border-white bg-neutral-300 bg-opacity-50 px-3 py-2 text-lg duration-300 ease-in-out hover:-translate-y-0.5 hover:border-yellow-500 hover:bg-yellow-500 hover:text-neutral-50 dark:bg-neutral-500 dark:bg-opacity-50">
-                  Learn More
-                </p>
-              </Link>
             </div>
+            <Link to="/about">
+              {/* this button doesn't work yet! */}
+              <p className="mt-8 transform rounded-full border-2 border-white bg-neutral-300 bg-opacity-50 px-3 py-2 text-lg duration-300 ease-in-out hover:-translate-y-0.5 hover:border-yellow-500 hover:bg-yellow-500 hover:text-neutral-50 dark:bg-neutral-500 dark:bg-opacity-50 md:mt-0">
+                Learn More
+              </p>
+            </Link>
           </div>
         </div>
       </div>
