@@ -23,7 +23,7 @@ export default function () {
         autoPlay
         loop
         muted
-        className="h-screen w-full object-cover opacity-80"
+        className="h-screen w-full object-cover opacity-70 blur-sm"
       >
         <source src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/pages/home/main-bg.mp4" />
       </video>
