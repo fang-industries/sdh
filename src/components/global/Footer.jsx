@@ -1,5 +1,6 @@
 import { faArrowUp, faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link } from "react-router-dom";
 
 export default function (props) {
   return (
@@ -59,28 +60,35 @@ export default function (props) {
       </div>
       <div className="space-y-4 bg-[rgb(8,46,68)] px-4 py-8 text-neutral-50 md:px-16">
         <div className="text-center">
-          <div className="md:space-y-2">
-            <p className="text-lg font-medium">
-              This website is licensed under the{" "}
-              <a
-                href="https://mit-license.org/"
+          <p className="text-lg font-medium">
+            The website&apos;s full source code is available{" "}
+            <a
+              href="https://github.com/sekolah-daging-habituasi/web"
+              className="underline hover:decoration-yellow-500 hover:decoration-2"
+            >
+              here
+            </a>
+            .
+          </p>
+          <p className="text-neutral-300">
+            Code is licensed under the{" "}
+            <a
+              href="https://mit-license.org/"
+              className="underline hover:decoration-yellow-500 hover:decoration-2"
+            >
+              MIT license
+            </a>
+            .
+            <span>
+              &nbsp;-&nbsp;
+              <Link
+                to="/licenses"
                 className="underline hover:decoration-yellow-500 hover:decoration-2"
               >
-                MIT license
-              </a>
-              .
-            </p>
-            <p className="text-neutral-300">
-              The full source code is available{" "}
-              <a
-                href="https://github.com/sekolah-daging-habituasi/web"
-                className="underline hover:decoration-yellow-500 hover:decoration-2"
-              >
-                here
-              </a>
-              .
-            </p>
-          </div>
+                License Notice
+              </Link>
+            </span>
+          </p>
         </div>
         <div className="text-center">
           Made with <FontAwesomeIcon icon={faHeart} /> and lots of laughs by
@@ -92,10 +100,6 @@ export default function (props) {
             style={{ fontFamily: "Klee One" }}
           >
             ありがとう
-          </div>
-          <div className="text-center text-xs text-yellow-400">
-            <p>If it wasn't obvious enough, this website is a joke</p>
-            <p>for a fictional school that DOES NOT exist.</p>
           </div>
           <div
             className="text-center text-[0.6rem] text-neutral-400"
