@@ -10,7 +10,7 @@ export default function () {
     const students = 12606275;
 
     return (
-      <div className="grid gap-8 bg-sky-900 px-16 py-8 md:h-80 md:grid-cols-4">
+      <div className="grid gap-8 bg-sky-900 px-4 py-8 md:h-80 md:grid-cols-4 md:px-16">
         <Card
           icon={faPeopleGroup}
           number={students.toLocaleString()}
