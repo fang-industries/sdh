@@ -43,6 +43,12 @@ export default function (props) {
     setActiveAbout(!activeAbout);
   };
 
+  const [activeAdmissions, setActiveAdmissions] = useState(false);
+
+  const tappedAdmissions = () => {
+    setActiveAdmissions(!activeAdmissions);
+  };
+
   return (
     <nav className="sticky top-0 z-50">
       <div className="z-10 md:hidden">
@@ -122,7 +128,7 @@ export default function (props) {
                   </div>
                 </button>
                 <div className="mx-2 border-b border-neutral-300 dark:border-neutral-700"></div>
-                <Link to="/admissions">
+                <button onClick={tappedAdmissions} className="w-full">
                   <div
                     className={`${
                       props.active === "admissions"
@@ -130,15 +136,21 @@ export default function (props) {
                         : ""
                     } py-3 px-4`}
                   >
-                    <div className="flex flex-row space-x-4">
+                    <div className="flex flex-row justify-between">
+                      <div className="flex flex-row space-x-4">
+                        <FontAwesomeIcon
+                          icon={faGraduationCap}
+                          className="my-auto"
+                        />
+                        <p className="font-medium">Admissions</p>
+                      </div>
                       <FontAwesomeIcon
-                        icon={faGraduationCap}
+                        icon={faChevronRight}
                         className="my-auto"
                       />
-                      <p className="font-medium">Admissions</p>
                     </div>
                   </div>
-                </Link>
+                </button>
                 <div className="mx-2 border-b border-neutral-300 dark:border-neutral-700"></div>
                 <Link to="/education">
                   <div
@@ -312,6 +324,102 @@ export default function (props) {
               </div>
               <div>
                 <button onClick={tappedAbout}>
+                  <div className="py-3 px-4">
+                    <div className="flex flex-row space-x-4">
+                      <FontAwesomeIcon
+                        icon={faChevronLeft}
+                        className="my-auto"
+                      />
+                      <p className="font-medium">Back to menu</p>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </div>
+      <div className="z-20 md:hidden">
+        <AnimatePresence>
+          {activeAdmissions && (
+            <motion.button
+              exit={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              initial={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              className={`${
+                activeAdmissions ? "" : "hidden"
+              } fixed z-10 h-full w-full cursor-default bg-neutral-900 bg-opacity-50 dark:bg-neutral-800 dark:bg-opacity-50`}
+              onClick={tappedAdmissions}
+            ></motion.button>
+          )}
+        </AnimatePresence>
+        <AnimatePresence>
+          {activeAdmissions && (
+            <motion.div
+              className={`${
+                activeAdmissions ? "" : "hidden"
+              } fixed z-20 h-full w-2/3 bg-neutral-50 dark:bg-neutral-900 md:hidden`}
+              exit={{ x: "-100%" }}
+              animate={{ x: 0 }}
+              initial={{ x: "-100%" }}
+              transition={{ type: "tween", duration: 0.2 }}
+            ></motion.div>
+          )}
+        </AnimatePresence>
+        <AnimatePresence>
+          {activeAdmissions && (
+            <motion.div
+              className={`${
+                activeAdmissions ? "" : "hidden"
+              } fixed z-40 flex h-full w-2/3 flex-col justify-between bg-neutral-50 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-50 md:hidden`}
+              exit={{ x: "-100%" }}
+              animate={{ x: 0 }}
+              initial={{ x: "-100%" }}
+              transition={{ type: "tween", duration: 0.2 }}
+            >
+              <div>
+                <Link to="/admissions">
+                  <div
+                    className={`${
+                      props.active === "admissions"
+                        ? "font-bold text-yellow-500"
+                        : ""
+                    } py-3 px-4`}
+                  >
+                    <div className="flex flex-row space-x-4">
+                      <FontAwesomeIcon
+                        icon={faGraduationCap}
+                        className="my-auto"
+                      />
+                      <p className="font-medium">Admissions</p>
+                    </div>
+                  </div>
+                </Link>
+                <div className="mx-2 border-b border-neutral-300 dark:border-neutral-700"></div>
+                <Link to="/admissions#register">
+                  <div className="py-3 px-4">
+                    <div className="flex flex-row space-x-4">
+                      <FontAwesomeIcon
+                        icon={faAddressCard}
+                        className="my-auto"
+                      />
+                      <p className="font-medium">Registration</p>
+                    </div>
+                  </div>
+                </Link>
+                <div className="mx-2 border-b border-neutral-300 dark:border-neutral-700"></div>
+                <Link to="/admissions#visit">
+                  <div className="py-3 px-4">
+                    <div className="flex flex-row space-x-4">
+                      <FontAwesomeIcon icon={faSchool} className="my-auto" />
+                      <p className="font-medium">Visit SDH</p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+              <div>
+                <button onClick={tappedAdmissions}>
                   <div className="py-3 px-4">
                     <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon
