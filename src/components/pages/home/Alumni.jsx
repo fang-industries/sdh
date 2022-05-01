@@ -9,7 +9,7 @@ export default function () {
   const students = 12606275;
 
   return (
-    <div className="py-16 px-16">
+    <div className="hidden py-16 px-16 md:block">
       <div className="space-y-2 text-center">
         <p className="text-3xl font-semibold text-sky-500">
           Featuring Outstanding

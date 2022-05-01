@@ -6,6 +6,7 @@ import SwiperResponsive from "../components/pages/home/responsive/Theme";
 import About from "../components/pages/home/About";
 import Statistics from "../components/pages/home/Statistics";
 import Alumni from "../components/pages/home/Alumni";
+import AlumniResponsive from "../components/pages/home/responsive/Alumni";
 import News from "../components/pages/home/News";
 import Join from "../components/pages/home/Join";
 
@@ -20,9 +21,10 @@ export default function () {
       <Swiper />
       <SwiperResponsive />
       <About />
-      {/* <Statistics />
+      <Statistics />
       <Alumni />
-      <News />
+      <AlumniResponsive />
+      {/* <News />
       <Join /> */}
     </Container>
   );
