@@ -170,6 +170,12 @@ export default function () {
               copyright="2022 Fonticons, Inc."
             />
             <AssetCard
+              name="Homepage Video BG"
+              web="https://www.sdh.sch.id/"
+              src="https://video.wixstatic.com/video/07639e_2763fc25be1645908e86bca5ad2c5cd4/720p/mp4/file.mp4"
+              copyright="Sekolah Dian Harapan"
+            />
+            <AssetCard
               name="FontAwesome Solid Icons"
               web="https://fontawesome.com/"
               license="CC BY 4.0"
@@ -180,6 +186,12 @@ export default function () {
               web="https://fontawesome.com/"
               license="CC BY 4.0"
               copyright="2022 Fonticons, Inc."
+            />
+            <AssetCard
+              name="About Section Picture"
+              web="https://www.sdh.sch.id/"
+              src="https://static.wixstatic.com/media/07639e_3ee67789c54d4ee99f2452e334e058c7~mv2.jpg/v1/crop/x_0,y_180,w_2000,h_2640/fill/w_400,h_528,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DSCF6477_edited.jpg"
+              copyright="Sekolah Dian Harapan"
             />
           </div>
         </div>
