@@ -46,7 +46,7 @@ export default function (props) {
           )}
         </div>
       </div>
-      <div className="my-2">
+      <div className="my-1">
         <p className="font-medium text-neutral-600 dark:text-neutral-400 ">
           Released under the{" "}
           <Link
