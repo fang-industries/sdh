@@ -1,4 +1,4 @@
-import Container from "../../components/modules/pages/licenses/container/License";
+import Container from "../../components/pages/licenses/Container";
 
 export default function () {
   return (

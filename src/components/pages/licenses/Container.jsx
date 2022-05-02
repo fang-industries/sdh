@@ -1,11 +1,11 @@
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Container from "../../../../global/Container";
+import Container from "../../global/Container";
 import { Link } from "react-router-dom";
 
-import MIT from "../licenses/MIT";
-import Unsplash from "../licenses/Unsplash";
-import OFL from "../licenses/OFL";
+import MIT from "../../modules/pages/licenses/licenses/MIT";
+import Unsplash from "../../modules/pages/licenses/licenses/Unsplash";
+import OFL from "../../modules/pages/licenses/licenses/OFL";
 
 export default function (props) {
   return (
