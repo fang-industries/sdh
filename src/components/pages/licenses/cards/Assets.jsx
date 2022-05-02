@@ -1,8 +1,10 @@
 import {
   faFont,
+  faGlobe,
   faImage,
   faLink,
   faVectorSquare,
+  faVideo,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
@@ -33,6 +35,22 @@ export default function (props) {
             <a href={props.web}>
               <FontAwesomeIcon
                 icon={faVectorSquare}
+                className="transform transition ease-in-out hover:-translate-y-0.5 hover:text-yellow-500"
+              />
+            </a>
+          ) : null}
+          {!props.license ? (
+            <a href={props.web}>
+              <FontAwesomeIcon
+                icon={faGlobe}
+                className="transform transition ease-in-out hover:-translate-y-0.5 hover:text-yellow-500"
+              />
+            </a>
+          ) : null}
+          {props.src ? (
+            <a href={props.src}>
+              <FontAwesomeIcon
+                icon={faLink}
                 className="transform transition ease-in-out hover:-translate-y-0.5 hover:text-yellow-500"
               />
             </a>
