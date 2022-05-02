@@ -30,6 +30,78 @@ export default function () {
               license="MIT"
               copyright="Facebook, Inc. and its affiliates"
             />
+            <LibraryCard
+              name="Vite"
+              version="2.9.5"
+              git="https://github.com/vitejs/vite"
+              web="https://vitejs.dev"
+              npm="vite"
+              license="MIT"
+              copyright="2019-present, Yuxi (Evan) You"
+            />
+            <LibraryCard
+              name="Tailwind CSS"
+              version="3.0.24"
+              git="https://github.com/tailwindlabs/tailwindcss"
+              web="https://tailwindcss.com"
+              npm="tailwindcss"
+              license="MIT"
+              copyright="Tailwind Labs, Inc."
+            />
+            <LibraryCard
+              name="React Helmet"
+              version="6.1.0"
+              git="https://github.com/facebook/react"
+              npm="react-helmet"
+              license="MIT"
+              copyright="2015 NFL"
+            />
+            <LibraryCard
+              name="PostCSS"
+              version="8.4.12"
+              git="https://github.com/postcss/postcss"
+              web="https://postcss.org"
+              npm="postcss"
+              license="MIT"
+              copyright="2013 Andrey Sitnik"
+              email="andrey@sitnik.ru"
+            />
+            <LibraryCard
+              name="Autoprefixer"
+              version="10.4.5"
+              git="https://github.com/postcss/autoprefixer"
+              npm="autoprefixer"
+              license="MIT"
+              copyright="2013 Andrey Sitnik"
+              email="andrey@sitnik.ru"
+            />
+            <LibraryCard
+              name="Swiper"
+              version="8.1.4"
+              git="https://github.com/nolimits4web/swiper"
+              web="https://swiperjs.com"
+              npm="swiper"
+              license="MIT"
+              copyright="2019 Vladimir Kharlampidi"
+            />
+            <LibraryCard
+              name="Tippy.js"
+              version="6.3.7"
+              git="https://github.com/atomiks/tippyjs"
+              web="https://atomiks.github.io/tippyjs"
+              npm="tippy.js"
+              license="MIT"
+              copyright="2017-present atomiks"
+            />
+            <LibraryCard
+              name="Framer Motion"
+              version="6.3.3"
+              git="https://github.com/framer/motion"
+              web="https://www.framer.com/motion"
+              npm="framer-motion"
+              license="MIT"
+              copyright="2018 Framer B.V."
+            />
           </div>
         </div>
       </div>
