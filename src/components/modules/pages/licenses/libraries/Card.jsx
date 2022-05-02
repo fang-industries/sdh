@@ -52,8 +52,8 @@ export default function (props) {
           <Link
             to={`/licenses/${props.name
               .toLowerCase()
-              .replace(" ", "")
-              .replace(".", "")}`}
+              .replace(/\s/g, "")
+              .replace(/./g, "")}`}
             className="underline hover:text-neutral-700 hover:decoration-yellow-500 dark:hover:text-neutral-300"
           >
             {props.license} License
