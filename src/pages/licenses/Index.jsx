@@ -1,7 +1,7 @@
-import Container from "../components/global/Container";
-import Image from "../components/pages/licenses/Image";
-import LibraryCard from "../components/modules/pages/licenses/libraries/Card";
-import Join from "../components/pages/home/Join";
+import Container from "../../components/global/Container";
+import Image from "../../components/pages/licenses/Image";
+import LibraryCard from "../../components/modules/pages/licenses/libraries/Card";
+import Join from "../../components/pages/home/Join";
 
 export default function () {
   return (
