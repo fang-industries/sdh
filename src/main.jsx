@@ -21,6 +21,8 @@ import LicensesHoldingWhitePrinterPaper from "./pages/licenses/HoldingWhitePrint
 import LicensesPoppins from "./pages/licenses/Poppins";
 import LicensesFASolidFonts from "./pages/licenses/FASolidFonts";
 import LicensesFABrandFonts from "./pages/licenses/FABrandFonts";
+import LicensesFASolidIcons from "./pages/licenses/FASolidIcons";
+import LicensesFABrandIcons from "./pages/licenses/FABrandIcons";
 
 import "./assets/styles/tailwind.css";
 import "./assets/styles/fonts.css";
@@ -69,6 +71,14 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route
           path="/licenses/fontawesomebrandfonts"
           element={<LicensesFABrandFonts />}
+        />
+        <Route
+          path="/licenses/fontawesomesolidicons"
+          element={<LicensesFASolidIcons />}
+        />
+        <Route
+          path="/licenses/fontawesomebrandicons"
+          element={<LicensesFABrandIcons />}
         />
         {/* #endregion licenses */}
         <Route path="*" element={<Index />} />

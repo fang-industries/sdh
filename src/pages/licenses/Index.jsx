@@ -169,6 +169,18 @@ export default function () {
               license="SIL Open Font"
               copyright="2022 Fonticons, Inc."
             />
+            <AssetCard
+              name="FontAwesome Solid Icons"
+              web="https://fontawesome.com/"
+              license="CC BY 4.0"
+              copyright="2022 Fonticons, Inc."
+            />
+            <AssetCard
+              name="FontAwesome Brand Icons"
+              web="https://fontawesome.com/"
+              license="CC BY 4.0"
+              copyright="2022 Fonticons, Inc."
+            />
           </div>
         </div>
       </div>
