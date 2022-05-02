@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 import MIT from "../licenses/MIT";
 import Unsplash from "../licenses/Unsplash";
+import OFL from "../licenses/OFL";
 
 export default function (props) {
   return (
@@ -22,6 +23,9 @@ export default function (props) {
         ) : null}
         {props.license === "Unsplash" ? (
           <Unsplash name={props.name} copyright={props.copyright} />
+        ) : null}
+        {props.license === "OFL" ? (
+          <OFL name={props.name} copyright={props.copyright} />
         ) : null}
       </div>
     </Container>
