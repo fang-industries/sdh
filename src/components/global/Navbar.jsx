@@ -265,7 +265,7 @@ export default function (props) {
                   icon={faChalkboard}
                   className="my-auto transform text-lg"
                 />
-                <p className="my-auto font-semibold">Teaching & Learning</p>
+                <p className="my-auto font-semibold">Education</p>
               </button>
             </Tippy>
           </Link>
