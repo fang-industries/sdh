@@ -20,6 +20,17 @@ export default function () {
             help of open-source projects, and we would like to thank them
             through attribution on this page.
           </p>
+          <div className="grid gap-4 md:grid-cols-3">
+            <LibraryCard
+              name="React"
+              version="18.0.0"
+              git="https://github.com/facebook/react"
+              web="https://reactjs.org"
+              npm="react"
+              license="MIT"
+              copyright="Facebook, Inc. and its affiliates"
+            />
+          </div>
         </div>
       </div>
       <Join />
