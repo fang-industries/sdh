@@ -1,4 +1,9 @@
-import { faImage, faLink } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFont,
+  faImage,
+  faLink,
+  faVectorSquare,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
@@ -8,26 +13,30 @@ export default function (props) {
       <div className="flex flex-row justify-between">
         <p className="text-xl font-medium">{props.name}</p>
         <div className="my-auto hidden space-x-4 text-xl md:block">
-          {props.web ? (
+          {props.license === "Unsplash" ? (
             <a href={props.web}>
-              <FontAwesomeIcon
-                icon={faLink}
-                className="transform transition ease-in-out hover:-translate-y-0.5 hover:text-yellow-500"
-              />
-            </a>
-          ) : (
-            ""
-          )}
-          {props.src ? (
-            <a href={props.src}>
               <FontAwesomeIcon
                 icon={faImage}
                 className="transform transition ease-in-out hover:-translate-y-0.5 hover:text-yellow-500"
               />
             </a>
-          ) : (
-            ""
-          )}
+          ) : null}
+          {props.license === "SIL Open Font" ? (
+            <a href={props.web}>
+              <FontAwesomeIcon
+                icon={faFont}
+                className="transform transition ease-in-out hover:-translate-y-0.5 hover:text-yellow-500"
+              />
+            </a>
+          ) : null}
+          {props.license === "CC BY 4.0" ? (
+            <a href={props.web}>
+              <FontAwesomeIcon
+                icon={faVectorSquare}
+                className="transform transition ease-in-out hover:-translate-y-0.5 hover:text-yellow-500"
+              />
+            </a>
+          ) : null}
         </div>
       </div>
       <div className="my-1 font-medium text-neutral-600 dark:text-neutral-400">
