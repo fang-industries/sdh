@@ -16,6 +16,8 @@ import LicensesMotion from "./pages/licenses/Motion";
 import LicensesReactFA from "./pages/licenses/ReactFA";
 import LicensesFASvgCore from "./pages/licenses/FASvgCore";
 import LicensesScrollup from "./pages/licenses/Scrollup";
+import LicensesBodyOfWaterUnderSky from "./pages/licenses/BodyOfWaterUnderSky";
+import LicensesHoldingWhitePrinterPaper from "./pages/licenses/HoldingWhitePrinterPaper";
 
 import "./assets/styles/tailwind.css";
 import "./assets/styles/fonts.css";
@@ -48,6 +50,14 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           element={<LicensesFASvgCore />}
         />
         <Route path="/licenses/reactscrollup" element={<LicensesScrollup />} />
+        <Route
+          path="/licenses/bodyofwaterundersky"
+          element={<LicensesBodyOfWaterUnderSky />}
+        />
+        <Route
+          path="/licenses/holdingwhiteprinterpaper"
+          element={<LicensesHoldingWhitePrinterPaper />}
+        />
         {/* #endregion licenses */}
         <Route path="*" element={<Index />} />
       </Routes>

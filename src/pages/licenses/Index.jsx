@@ -1,6 +1,7 @@
 import Container from "../../components/global/Container";
 import Image from "../../components/pages/licenses/Image";
 import LibraryCard from "../../components/modules/pages/licenses/libraries/Card";
+import AssetCard from "../../components/modules/pages/licenses/libraries/Assets";
 import Join from "../../components/pages/home/Join";
 
 export default function () {
@@ -135,7 +136,22 @@ export default function () {
           <p className="text-4xl font-bold">License Notices</p>
         </div>
         <div className="space-y-4">
-          <div className="grid gap-4 md:grid-cols-3"></div>
+          <div className="grid gap-4 md:grid-cols-3">
+            <AssetCard
+              name="Body Of Water Under Sky"
+              web="https://unsplash.com/photos/6ArTTluciuA"
+              src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=matt-hardy-6ArTTluciuA-unsplash.jpg"
+              license="Unsplash"
+              copyright="Matt Hardy"
+            />
+            <AssetCard
+              name="Holding White Printer Paper"
+              web="https://unsplash.com/photos/G771MJLxPaw"
+              src="https://images.unsplash.com/photo-1593871097805-09627f52f4bb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=thapanee-srisawat-G771MJLxPaw-unsplash.jpg"
+              license="Unsplash"
+              copyright="Thapanee Srisawat"
+            />
+          </div>
         </div>
       </div>
       <Join />
