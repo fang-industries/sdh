@@ -62,7 +62,7 @@ export default function (props) {
         </p>
       </div>
       <p className="text-sm font-light text-neutral-600 dark:text-neutral-400">
-        Copyright © {props.copyright}.{" "}
+        Copyright © {props.copyright}{" "}
         {props.email ? (
           <span className="hidden text-xs font-light text-neutral-500 md:inline-block">
             {"<"}
