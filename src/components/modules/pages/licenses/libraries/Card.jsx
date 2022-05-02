@@ -50,7 +50,10 @@ export default function (props) {
         <p className="font-medium text-neutral-600 dark:text-neutral-400 ">
           Released under the{" "}
           <Link
-            to={`/licenses/${props.name.toLowerCase().replace(" ", "")}`}
+            to={`/licenses/${props.name
+              .toLowerCase()
+              .replace(" ", "")
+              .replace(".", "")}`}
             className="underline hover:text-neutral-700 hover:decoration-yellow-500 dark:hover:text-neutral-300"
           >
             {props.license} License
