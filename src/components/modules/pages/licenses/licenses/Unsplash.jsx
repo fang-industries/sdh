@@ -106,16 +106,14 @@ export default function (props) {
         </div>
       </div>
       <div className="border-2 border-b border-neutral-400 dark:border-neutral-600" />
-      <div className="space-y-4">
-        <p>
-          Unsplash grants you an irrevocable, nonexclusive, worldwide copyright
-          license to download, copy, modify, distribute, perform, and use photos
-          from Unsplash for free, including for commercial purposes, without
-          permission from or attributing the photographer or Unsplash. This
-          license does not include the right to compile photos from Unsplash to
-          replicate a similar or competing service.
-        </p>
-      </div>
+      <p>
+        Unsplash grants you an irrevocable, nonexclusive, worldwide copyright
+        license to download, copy, modify, distribute, perform, and use photos
+        from Unsplash for free, including for commercial purposes, without
+        permission from or attributing the photographer or Unsplash. This
+        license does not include the right to compile photos from Unsplash to
+        replicate a similar or competing service.
+      </p>
     </div>
   );
 }
