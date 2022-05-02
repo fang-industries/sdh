@@ -151,6 +151,24 @@ export default function () {
               license="Unsplash"
               copyright="Thapanee Srisawat"
             />
+            <AssetCard
+              name="Poppins"
+              web="https://fonts.google.com/specimen/Poppins"
+              license="SIL Open Font"
+              copyright="Indian Type Foundry, Jonny Pinhorn"
+            />
+            <AssetCard
+              name="FontAwesome Solid Fonts"
+              web="https://fontawesome.com/"
+              license="SIL Open Font"
+              copyright="2022 Fonticons, Inc."
+            />
+            <AssetCard
+              name="FontAwesome Brand Fonts"
+              web="https://fontawesome.com/"
+              license="SIL Open Font"
+              copyright="2022 Fonticons, Inc."
+            />
           </div>
         </div>
       </div>
