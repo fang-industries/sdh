@@ -9,7 +9,7 @@ import {
 
 export default function (props) {
   return (
-    <div className="mx-4 my-8 space-y-8 md:my-16 md:mx-16">
+    <div className="space-y-8">
       <div className="flex">
         <div>
           <div className="flex flex-row">
