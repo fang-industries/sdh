@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Index from './pages/Index'
-import Licenses from "./pages/licenses";
+import Licenses from "./pages/licenses/Index";
 import LicensesReact from "./pages/licenses/React";
 
 import "./assets/styles/tailwind.css";
