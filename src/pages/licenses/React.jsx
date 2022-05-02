@@ -6,6 +6,6 @@ export default function () {
       name="React"
       copyright="Facebook, Inc. and its affiliates"
       license="MIT"
-    ></Container>
+    />
   );
 }
