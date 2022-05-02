@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import MIT from "../../modules/pages/licenses/license/MIT";
 import Unsplash from "../../modules/pages/licenses/license/Unsplash";
 import OFL from "../../modules/pages/licenses/license/OFL";
+import CCBY4 from "../../modules/pages/licenses/license/CCBY4";
 
 export default function (props) {
   return (
@@ -26,6 +27,9 @@ export default function (props) {
         ) : null}
         {props.license === "OFL" ? (
           <OFL name={props.name} copyright={props.copyright} />
+        ) : null}
+        {props.license === "CC BY 4.0" ? (
+          <CCBY4 name={props.name} copyright={props.copyright} />
         ) : null}
       </div>
     </Container>
