@@ -3,8 +3,11 @@ import Termination from "../Termination";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faBookOpen,
   faCheck,
+  faDoorOpen,
   faInfoCircle,
+  faThumbsUp,
   faXmark,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -110,7 +113,10 @@ export default function (props) {
       <div className="border-2 border-b border-neutral-400 dark:border-neutral-600" />
       <div className="space-y-8">
         <div className="space-y-4">
-          <p className="text-xl font-semibold">Preamble</p>
+          <div className="flex space-x-2">
+            <FontAwesomeIcon icon={faDoorOpen} className="my-auto text-xl" />{" "}
+            <p className="my-auto text-xl font-semibold">Preamble</p>
+          </div>
           <p>
             The goals of the Open Font License (OFL) are to stimulate worldwide
             development of collaborative font projects, to support the font
@@ -128,7 +134,10 @@ export default function (props) {
           </p>
         </div>
         <div className="space-y-4">
-          <p className="text-xl font-semibold">Definitions</p>
+          <div className="flex space-x-2">
+            <FontAwesomeIcon icon={faBookOpen} className="my-auto text-xl" />{" "}
+            <p className="my-auto text-xl font-semibold">Definitions</p>
+          </div>
           <p>
             "Font Software" refers to the set of files released by the Copyright
             Holder(s) under this license and clearly marked as such. This may
@@ -145,7 +154,12 @@ export default function (props) {
           </p>
         </div>
         <div className="space-y-4">
-          <p className="text-xl font-semibold">Permission & Conditions</p>
+          <div className="flex space-x-2">
+            <FontAwesomeIcon icon={faThumbsUp} className="my-auto text-xl" />{" "}
+            <p className="my-auto text-xl font-semibold">
+              Permission & Conditions
+            </p>
+          </div>
           <p>
             Permission is hereby granted, free of charge, to any person
             obtaining a copy of the Font Software, to use, study, copy, merge,
