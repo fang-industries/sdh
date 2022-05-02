@@ -1,5 +1,5 @@
-import Disclaimer from "../Disclaimer";
-import Termination from "../Termination";
+import Disclaimer from "../modules/Disclaimer";
+import Termination from "../modules/Termination";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

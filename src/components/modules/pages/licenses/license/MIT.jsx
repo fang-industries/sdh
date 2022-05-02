@@ -1,4 +1,4 @@
-import Disclaimer from "../Disclaimer";
+import Disclaimer from "../modules/Disclaimer";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

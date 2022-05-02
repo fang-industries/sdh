@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Container from "../../global/Container";
 import { Link } from "react-router-dom";
 
-import MIT from "../../modules/pages/licenses/licenses/MIT";
-import Unsplash from "../../modules/pages/licenses/licenses/Unsplash";
-import OFL from "../../modules/pages/licenses/licenses/OFL";
+import MIT from "../../modules/pages/licenses/license/MIT";
+import Unsplash from "../../modules/pages/licenses/license/Unsplash";
+import OFL from "../../modules/pages/licenses/license/OFL";
 
 export default function (props) {
   return (
