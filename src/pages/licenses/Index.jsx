@@ -8,10 +8,8 @@ export default function () {
     <Container title="License">
       <Image />
       <div className="mx-4 my-8 space-y-8 md:my-16 md:mx-16">
-        <div>
-          <div className="flex flex-row">
-            <p className="text-3xl font-semibold text-sky-500">Open-source</p>
-          </div>
+        <div className="text-center">
+          <p className="text-3xl font-semibold text-sky-500">Open-source</p>
           <p className="text-4xl font-bold">License Notices</p>
         </div>
         <div className="space-y-4">
@@ -127,6 +125,17 @@ export default function () {
               copyright="2015 Miloš Janda"
             />
           </div>
+        </div>
+      </div>
+      <div className="mx-4 my-8 space-y-8 md:my-16 md:mx-16">
+        <div className="text-center">
+          <p className="text-3xl font-semibold text-sky-500">
+            Assets & Artwork
+          </p>
+          <p className="text-4xl font-bold">License Notices</p>
+        </div>
+        <div className="space-y-4">
+          <div className="grid gap-4 md:grid-cols-3"></div>
         </div>
       </div>
       <Join />
