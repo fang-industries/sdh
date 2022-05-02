@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import NavbarResponsive from "./NavbarResponsive";
+import ScrollToTop from "./ScrollToTop";
 
 export default function Container(props) {
   const { children } = props;
@@ -60,6 +61,7 @@ export default function Container(props) {
           <NavbarResponsive
             active={props.title.toLowerCase().replace(" ", "")}
           />
+          <ScrollToTop />
           <main id="content" className="text-sky-900 dark:text-neutral-50">
             {children}
           </main>

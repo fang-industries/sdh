@@ -1,19 +1,11 @@
-import { faArrowUp, faHeart } from "@fortawesome/free-solid-svg-icons";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
 export default function (props) {
   return (
     <footer>
-      <div className="space-y-8 bg-sky-900 px-4 py-8 text-yellow-500 md:px-16">
-        <div className="flex flex-row justify-center">
-          <a
-            href="#"
-            className="flex h-10 w-10 transform flex-col justify-center rounded-full bg-sky-800 text-center text-2xl shadow duration-300 ease-in-out hover:-translate-y-0.5"
-          >
-            <FontAwesomeIcon icon={faArrowUp} />
-          </a>
-        </div>
+      <div className="space-y-4 bg-sky-900 px-4 py-8 text-yellow-500 md:px-16">
         <div className="flex-row justify-center space-x-0 space-y-8 md:flex md:space-y-0 md:space-x-32">
           <div className="space-y-2 text-center md:text-left">
             <p className="text-lg font-semibold">Head Office</p>
