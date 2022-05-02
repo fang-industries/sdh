@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import "tippy.js/animations/shift-away.css";
+import "../../assets/styles/tippy.css";
 
 import logo from "../../assets/images/logo.png";
 import {
@@ -69,7 +70,7 @@ export default function (props) {
             <button
               className={`${
                 props.active === "home"
-                  ? "bg-neutral-900 bg-opacity-[0.33] text-neutral-50 dark:bg-neutral-100 dark:bg-opacity-[0.33] dark:text-yellow-400"
+                  ? "bg-neutral-900 bg-opacity-[0.33] text-yellow-300 dark:bg-neutral-100 dark:bg-opacity-[0.33] dark:text-yellow-400"
                   : "text-neutral-900"
               } transtion flex flex-row space-x-2 rounded px-3 py-2 duration-300 hover:bg-neutral-900 hover:bg-opacity-20 dark:text-neutral-50 dark:hover:bg-neutral-100 dark:hover:bg-opacity-20`}
             >
@@ -85,7 +86,7 @@ export default function (props) {
               content={
                 <div className="flex flex-col px-1 text-center">
                   <Link to="/about#welcome">
-                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
+                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faPeopleGroup}
                         className="my-auto mr-4"
@@ -95,7 +96,7 @@ export default function (props) {
                   </Link>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
                   <Link to="/about#history">
-                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
+                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faCalendarDay}
                         className="my-auto mr-4"
@@ -105,7 +106,7 @@ export default function (props) {
                   </Link>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
                   <Link to="/about/networks">
-                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
+                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faCircleNodes}
                         className="my-auto mr-4"
@@ -115,7 +116,7 @@ export default function (props) {
                   </Link>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
                   <Link to="/about/campuses">
-                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
+                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faSchool}
                         className="my-auto mr-4"
@@ -128,11 +129,12 @@ export default function (props) {
               placement="bottom"
               interactive
               animation="shift-away"
+              theme="transparent"
             >
               <button
                 className={`${
                   props.active === "about"
-                    ? "bg-neutral-900 bg-opacity-[0.33] text-neutral-50 dark:bg-neutral-100 dark:bg-opacity-[0.33] dark:text-yellow-400"
+                    ? "bg-neutral-900 bg-opacity-[0.33] text-yellow-300 dark:bg-neutral-100 dark:bg-opacity-[0.33] dark:text-yellow-400"
                     : "text-neutral-900"
                 } transtion flex flex-row space-x-2 rounded px-3 py-2 duration-300 hover:bg-neutral-900 hover:bg-opacity-20 dark:text-neutral-50 dark:hover:bg-neutral-100 dark:hover:bg-opacity-20`}
               >
@@ -149,7 +151,7 @@ export default function (props) {
               content={
                 <div className="flex flex-col px-1 text-center">
                   <Link to="/admissions#register">
-                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
+                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faAddressCard}
                         className="my-auto mr-4"
@@ -159,7 +161,7 @@ export default function (props) {
                   </Link>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
                   <Link to="/admissions#visit">
-                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
+                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faSchool}
                         className="my-auto mr-4"
@@ -172,11 +174,12 @@ export default function (props) {
               placement="bottom"
               interactive
               animation="shift-away"
+              theme="transparent"
             >
               <button
                 className={`${
                   props.active === "admissions"
-                    ? "bg-neutral-900 bg-opacity-[0.33] text-neutral-50 dark:bg-neutral-100 dark:bg-opacity-[0.33] dark:text-yellow-400"
+                    ? "bg-neutral-900 bg-opacity-[0.33] text-yellow-300 dark:bg-neutral-100 dark:bg-opacity-[0.33] dark:text-yellow-400"
                     : "text-neutral-900"
                 } transtion flex flex-row space-x-2 rounded px-3 py-2 duration-300 hover:bg-neutral-900 hover:bg-opacity-20 dark:text-neutral-50 dark:hover:bg-neutral-100 dark:hover:bg-opacity-20`}
               >
@@ -193,7 +196,7 @@ export default function (props) {
               content={
                 <div className="flex flex-col px-1 text-center">
                   <Link to="/education/academic">
-                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
+                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faUserGraduate}
                         className="my-auto mr-4"
@@ -203,14 +206,14 @@ export default function (props) {
                   </Link>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
                   <Link to="/education/kindergarten">
-                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
+                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon icon={faBaby} className="my-auto mr-4" />
                       <p className="my-auto ml-4">Kindergarten</p>
                     </div>
                   </Link>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
                   <Link to="/education/primary">
-                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
+                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faAppleWhole}
                         className="my-auto mr-4"
@@ -220,7 +223,7 @@ export default function (props) {
                   </Link>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
                   <Link to="/education/junior">
-                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
+                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faBookOpen}
                         className="my-auto mr-4"
@@ -230,7 +233,7 @@ export default function (props) {
                   </Link>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
                   <Link to="/education/senior">
-                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
+                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faUserGraduate}
                         className="my-auto mr-4"
@@ -240,7 +243,7 @@ export default function (props) {
                   </Link>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
                   <Link to="/education/activities">
-                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-yellow-400">
+                    <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faShapes}
                         className="my-auto mr-4"
@@ -253,11 +256,12 @@ export default function (props) {
               placement="bottom"
               interactive
               animation="shift-away"
+              theme="transparent"
             >
               <button
                 className={`${
                   props.active === "education"
-                    ? "bg-neutral-900 bg-opacity-[0.33] text-neutral-50 dark:bg-neutral-100 dark:bg-opacity-[0.33] dark:text-yellow-400"
+                    ? "bg-neutral-900 bg-opacity-[0.33] text-yellow-300 dark:bg-neutral-100 dark:bg-opacity-[0.33] dark:text-yellow-400"
                     : "text-neutral-900"
                 } transtion flex flex-row space-x-2 rounded px-3 py-2 duration-300 hover:bg-neutral-900 hover:bg-opacity-20 dark:text-neutral-50 dark:hover:bg-neutral-100 dark:hover:bg-opacity-20`}
               >
@@ -275,7 +279,7 @@ export default function (props) {
             <button
               className={`${
                 props.active === "community"
-                  ? "bg-neutral-900 bg-opacity-[0.33] text-neutral-50 dark:bg-neutral-100 dark:bg-opacity-[0.33] dark:text-yellow-400"
+                  ? "bg-neutral-900 bg-opacity-[0.33] text-yellow-300 dark:bg-neutral-100 dark:bg-opacity-[0.33] dark:text-yellow-400"
                   : "text-neutral-900"
               } transtion flex flex-row space-x-2 rounded px-3 py-2 duration-300 hover:bg-neutral-900 hover:bg-opacity-20 dark:text-neutral-50 dark:hover:bg-neutral-100 dark:hover:bg-opacity-20`}
             >
@@ -290,7 +294,7 @@ export default function (props) {
             <button
               className={`${
                 props.active === "newspaper"
-                  ? "bg-neutral-900 bg-opacity-[0.33] text-neutral-50 dark:bg-neutral-100 dark:bg-opacity-[0.33] dark:text-yellow-400"
+                  ? "bg-neutral-900 bg-opacity-[0.33] text-yellow-300 dark:bg-neutral-100 dark:bg-opacity-[0.33] dark:text-yellow-400"
                   : "text-neutral-900"
               } transtion flex flex-row space-x-2 rounded px-3 py-2 duration-300 hover:bg-neutral-900 hover:bg-opacity-20 dark:text-neutral-50 dark:hover:bg-neutral-100 dark:hover:bg-opacity-20`}
             >
@@ -305,7 +309,7 @@ export default function (props) {
             <button
               className={`${
                 props.active === "ourvoices"
-                  ? "bg-neutral-900 bg-opacity-[0.33] text-neutral-50 dark:bg-neutral-100 dark:bg-opacity-[0.33] dark:text-yellow-400"
+                  ? "bg-neutral-900 bg-opacity-[0.33] text-yellow-300 dark:bg-neutral-100 dark:bg-opacity-[0.33] dark:text-yellow-400"
                   : "text-neutral-900"
               } transtion flex flex-row space-x-2 rounded px-3 py-2 duration-300 hover:bg-neutral-900 hover:bg-opacity-20 dark:text-neutral-50 dark:hover:bg-neutral-100 dark:hover:bg-opacity-20`}
             >

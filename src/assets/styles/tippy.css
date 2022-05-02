@@ -1,0 +1,7 @@
+.tippy-box[data-theme~='transparent'] {
+    @apply bg-neutral-100 dark:bg-neutral-900 dark:bg-opacity-70 bg-opacity-70 backdrop-blur-lg dark:text-neutral-50 text-neutral-900
+}
+
+.tippy-box[data-theme~='transparent'][data-placement^='bottom']>.tippy-arrow::before {
+    @apply border-b-neutral-100 dark:border-b-neutral-900 dark:border-opacity-70 border-opacity-70
+}
