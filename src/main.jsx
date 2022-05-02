@@ -13,6 +13,9 @@ import LicensesAutoprefixer from "./pages/licenses/Autoprefixer";
 import LicensesSwiper from "./pages/licenses/Swiper";
 import LicensesTippy from "./pages/licenses/Tippy";
 import LicensesMotion from "./pages/licenses/Motion";
+import LicensesReactFA from "./pages/licenses/ReactFA";
+import LicensesFASvgCore from "./pages/licenses/FASvgCore";
+import LicensesScrollup from "./pages/licenses/Scrollup";
 
 import "./assets/styles/tailwind.css";
 import "./assets/styles/fonts.css";
@@ -36,6 +39,15 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/licenses/swiper" element={<LicensesSwiper />} />
         <Route path="/licenses/tippyjs" element={<LicensesTippy />} />
         <Route path="/licenses/framermotion" element={<LicensesMotion />} />
+        <Route
+          path="/licenses/react-fontawesome"
+          element={<LicensesReactFA />}
+        />
+        <Route
+          path="/licenses/fontawesomesvgcore"
+          element={<LicensesFASvgCore />}
+        />
+        <Route path="/licenses/reactscrollup" element={<LicensesScrollup />} />
         {/* #endregion licenses */}
         <Route path="*" element={<Index />} />
       </Routes>
