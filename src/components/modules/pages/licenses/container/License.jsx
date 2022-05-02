@@ -4,6 +4,7 @@ import Container from "../../../../global/Container";
 import { Link } from "react-router-dom";
 
 import MIT from "../licenses/MIT";
+import Unsplash from "../licenses/Unsplash";
 
 export default function (props) {
   return (
@@ -18,6 +19,9 @@ export default function (props) {
         </Link>
         {props.license === "MIT" ? (
           <MIT name={props.name} copyright={props.copyright} />
+        ) : null}
+        {props.license === "Unsplash" ? (
+          <Unsplash name={props.name} copyright={props.copyright} />
         ) : null}
       </div>
     </Container>
