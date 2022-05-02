@@ -102,6 +102,30 @@ export default function () {
               license="MIT"
               copyright="2018 Framer B.V."
             />
+            <LibraryCard
+              name="React-Fontawesome"
+              version="0.1.18"
+              git="https://github.com/FortAwesome/react-fontawesome"
+              npm="@fortawesome/react-fontawesome"
+              license="MIT"
+              copyright="2018 Fonticons, Inc."
+            />
+            <LibraryCard
+              name="FontAwesome SVG Core"
+              version="6.1.1"
+              git="https://github.com/FortAwesome/Font-Awesome"
+              npm="@fortawesome/fontawesome-svg-core"
+              license="MIT"
+              copyright="2022 Fonticons, Inc."
+            />
+            <LibraryCard
+              name="React Scroll Up"
+              version="1.3.7"
+              git="https://github.com/milosjanda/react-scroll-up"
+              npm="react-scroll-up"
+              license="MIT"
+              copyright="2015 Miloš Janda"
+            />
           </div>
         </div>
       </div>
