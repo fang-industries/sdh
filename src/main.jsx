@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Index from './pages/Index'
 import Licenses from "./pages/licenses/Index";
+
+// #region Import license
 import LicensesReact from "./pages/licenses/React";
 import LicensesVite from "./pages/licenses/Vite";
 import LicensesTailwind from "./pages/licenses/Tailwind";
@@ -23,6 +25,7 @@ import LicensesFASolidFonts from "./pages/licenses/FASolidFonts";
 import LicensesFABrandFonts from "./pages/licenses/FABrandFonts";
 import LicensesFASolidIcons from "./pages/licenses/FASolidIcons";
 import LicensesFABrandIcons from "./pages/licenses/FABrandIcons";
+// #endregion Import license
 
 import "./assets/styles/tailwind.css";
 import "./assets/styles/fonts.css";
@@ -33,7 +36,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/licenses" element={<Licenses />} />
-        {/* #region licenses */}
+        // #region licenses
         <Route path="/licenses/react" element={<LicensesReact />} />
         <Route path="/licenses/vite" element={<LicensesVite />} />
         <Route path="/licenses/tailwindcss" element={<LicensesTailwind />} />
@@ -80,7 +83,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           path="/licenses/fontawesomebrandicons"
           element={<LicensesFABrandIcons />}
         />
-        {/* #endregion licenses */}
+        // #endregion licenses
         <Route path="*" element={<Index />} />
       </Routes>
     </BrowserRouter>
