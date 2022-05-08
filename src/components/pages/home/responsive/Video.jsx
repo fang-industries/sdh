@@ -1,3 +1,5 @@
+import VideoBG from "../../../assets/media/videos/pages/home/main-bg.mp4";
+
 export default function () {
   return (
     <div className="md:hidden">
@@ -25,7 +27,7 @@ export default function () {
         muted
         className="h-screen w-full object-cover opacity-70 blur-sm"
       >
-        <source src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/pages/home/main-bg.mp4" />
+        <source src={VideoBG} />
       </video>
     </div>
   );

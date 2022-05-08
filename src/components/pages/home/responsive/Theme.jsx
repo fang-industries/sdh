@@ -14,6 +14,7 @@ import {
   faDrumstickBite,
 } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
+import ChickenWeProclaim from "../../../assets/media/images/icons/chicken-we-proclaim.png";
 
 export default function () {
   const [year, setYear] = useState(0);
@@ -29,7 +30,7 @@ export default function () {
       <div className="flex bg-sky-900">
         <div className="my-auto flex flex-row space-x-4">
           <img
-            src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/icons/chicken-we-proclaim.png"
+            src={ChickenWeProclaim}
             alt="Chicken We Proclaim icon"
             className="h-32 w-32"
           />

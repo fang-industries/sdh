@@ -4,6 +4,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
+import AlumniAlexa from "../../../assets/media/images/components/modules/pages/home/alumni/alexa.png";
+import AlumniJovan from "../../../assets/media/images/components/modules/pages/home/alumni/jovan.png";
+import AlumniTimothy from "../../../assets/media/images/components/modules/pages/home/alumni/timothy.png";
 
 export default function () {
   const students = 12606275;
@@ -20,7 +23,7 @@ export default function () {
         <div className="rounded-xl bg-neutral-100 p-8 dark:bg-neutral-800">
           <img
             className="mx-auto mb-8 h-32 w-32 rounded-full object-cover"
-            src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/alumni/timothy.png"
+            src={AlumniTimothy}
             alt="Picture of Timothy Joseph"
           />
           <div className="space-y-8 text-left">
@@ -40,7 +43,7 @@ export default function () {
         <div className="rounded-xl bg-neutral-100 p-8 dark:bg-neutral-800">
           <img
             className="mx-auto mb-8 h-32 w-32 rounded-full object-cover"
-            src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/alumni/alexa.png"
+            src={AlumniAlexa}
             alt="Picture of Alexa Tan"
           />
           <div className="space-y-8 text-left">
@@ -52,16 +55,14 @@ export default function () {
             </p>
             <div className="font-medium">
               <div className="text-yellow-500">Alexa Tan</div>
-              <div className="text-neutral-7000">
-                SDH Malang, Class of 1862
-              </div>
+              <div className="text-neutral-7000">SDH Malang, Class of 1862</div>
             </div>
           </div>
         </div>
         <div className="rounded-xl bg-neutral-100 p-8 dark:bg-neutral-800">
           <img
             className="mx-auto mb-8 h-32 w-32 rounded-full object-cover"
-            src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/alumni/jovan.png"
+            src={AlumniJovan}
             alt="Picture of Jovannes Adryan"
           />
           <div className="space-y-8 text-left">
