@@ -205,6 +205,12 @@ export default function () {
               src="https://static.wixstatic.com/media/07639e_5ef63e0cbfd34f78969295b47c7dd573~mv2.jpg/v1/crop/x_0,y_6,w_1500,h_1988/fill/w_400,h_530,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Laboratory_03_edited_edited_edited.jpg"
               copyright="Sekolah Dian Harapan"
             />
+            <AssetCard
+              name="Founding Members Picture"
+              web="https://www.sdh.sch.id/"
+              src="https://static.wixstatic.com/media/07639e_d9235a1c19fc4492b4bc4fc3e75b83f8~mv2.jpg/v1/crop/x_70,y_0,w_861,h_667/fill/w_400,h_310,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ypph_edited.jpg"
+              copyright="Sekolah Dian Harapan"
+            />
           </div>
         </div>
       </div>

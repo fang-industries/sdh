@@ -1,10 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowRight,
-  faHandHoldingHeart,
-} from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import AboutImg from "../../../../assets/media/images/pages/about/index/laboratory.webp";
 
 export default function () {
