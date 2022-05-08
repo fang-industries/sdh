@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 
 export default function () {
   return (
-    <div className="mx-4 mb-8 justify-between space-y-8 rounded-xl bg-[url('https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/pages/home/join.jpg')] bg-cover bg-center p-8 font-semibold text-neutral-50 md:mx-16 md:mb-16 md:flex md:space-y-0">
+    <div
+      className={`mx-4 mb-8 justify-between space-y-8 rounded-xl bg-[url('/src/assets/media/images/components/global/join/bg.jpg')] bg-cover bg-center p-8 font-semibold text-neutral-50 md:mx-16 md:mb-16 md:flex md:space-y-0`}
+    >
       <div className="my-auto text-2xl">
         <p>Be a part of our lifelong,</p>
         <p>abusive learning community today.</p>

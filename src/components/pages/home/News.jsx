@@ -1,5 +1,9 @@
 import Card from "../../modules/pages/home/news/Card";
 
+import ChickenRoast from "../../../assets/media/images/newsletter/export/chicken-roast.png";
+import AmbassadorsGorengPadang from "../../../assets/media/images/newsletter/export/ambassadors-goreng-padang.png";
+import ProclaimingBeef from "../../../assets/media/images/newsletter/export/proclaiming-beef.png";
+
 export default function () {
   return (
     <div className="py-8 px-4 md:py-16 md:px-16">
@@ -11,7 +15,7 @@ export default function () {
       </div>
       <div className="mt-8 grid gap-8 md:grid-cols-3 md:gap-16">
         <Card
-          img="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/newsletter/export/chicken-roast.png"
+          img={ChickenRoast}
           topic="Parents webinar"
           title={`"The Secret Ingredients Of A Great Chicken Roast"`}
           desc="Kegiatan Webinar Sesion 4 kali ini akan lebih special karena dalam
@@ -20,7 +24,7 @@ export default function () {
           stats={{ views: "43", comments: "8", hearts: "35" }}
         />
         <Card
-          img="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/newsletter/export/ambassadors-goreng-padang.png"
+          img={AmbassadorsGorengPadang}
           topic="Song and Logo Contest"
           title={`Daging Habituasi Theme 2022-2023 "Be Ambassadors for...`}
           desc="School Theme SDH_SLH is a theme that unites the direction of self-development, curriculum (school ..."
@@ -28,7 +32,7 @@ export default function () {
           stats={{ views: "66", comments: "32", hearts: "10" }}
         />
         <Card
-          img="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/newsletter/export/proclaiming-beef.png"
+          img={ProclaimingBeef}
           topic="Festivals"
           title={`Daging Habituasi School Subject Festival 2022`}
           desc="Hello Daging Community! Melalui SDH Subject Festival 2022, SDH rindu untuk mendukung pemahaman..."

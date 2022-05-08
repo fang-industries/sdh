@@ -6,7 +6,7 @@ import "tippy.js/dist/tippy.css";
 import "tippy.js/animations/shift-away.css";
 import { motion, AnimatePresence } from "framer-motion";
 
-import logo from "../../assets/images/logo.png";
+import logo from "../../assets/media/images/logo.png";
 import {
   faAddressCard,
   faAppleWhole,

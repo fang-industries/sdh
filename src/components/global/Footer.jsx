@@ -1,6 +1,7 @@
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
+import FangIndustriesWhite from "../../assets/media/images/icons/fang-industries-white.png";
 
 export default function (props) {
   return (
@@ -42,7 +43,7 @@ export default function (props) {
             <p className="text-lg font-semibold">Assosciation</p>
             <div className="flex flex-col text-neutral-50">
               <img
-                src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/icons/fang-industries-white.png"
+                src={FangIndustriesWhite}
                 alt="Fang Industries"
                 className="h-6 md:h-8"
               />

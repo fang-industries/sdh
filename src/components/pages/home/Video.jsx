@@ -1,3 +1,5 @@
+import VideoBG from "../../../assets/media/videos/pages/home/main-bg.mp4";
+
 export default function () {
   return (
     <div className="hidden md:block">
@@ -18,7 +20,7 @@ export default function () {
         </div>
       </div>
       <video autoPlay loop muted className="w-full opacity-80">
-        <source src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/pages/home/main-bg.mp4" />
+        <source src={VideoBG} />
       </video>
     </div>
   );

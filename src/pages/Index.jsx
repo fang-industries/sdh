@@ -8,7 +8,7 @@ import Statistics from "../components/pages/home/Statistics";
 import Alumni from "../components/pages/home/Alumni";
 import AlumniResponsive from "../components/pages/home/responsive/Alumni";
 import News from "../components/pages/home/News";
-import Join from "../components/pages/home/Join";
+import Join from "../components/global/Join";
 
 export default function () {
   return (

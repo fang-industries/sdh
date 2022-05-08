@@ -5,6 +5,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import AboutImg from "../../../assets/media/images/pages/home/about.webp";
 
 export default function () {
   const [years, setYears] = useState(0);
@@ -17,7 +18,7 @@ export default function () {
     <div className="my-8 mx-4 md:my-16 md:mx-16">
       <div className="space-y-8 md:flex md:space-x-16 md:space-y-0">
         <img
-          src="https://raw.githubusercontent.com/sekolah-daging-habituasi/assets/main/pages/home/about.webp"
+          src={AboutImg}
           alt="About image"
           className="aspect-square h-fit rounded-xl object-cover md:aspect-auto md:h-[37rem]"
         />

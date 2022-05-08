@@ -2,7 +2,7 @@ import Container from "../../components/global/Container";
 import Image from "../../components/pages/licenses/Image";
 import LibraryCard from "../../components/pages/licenses/cards/Libraries";
 import AssetCard from "../../components/pages/licenses/cards/Assets";
-import Join from "../../components/pages/home/Join";
+import Join from "../../components/global/Join";
 
 export default function () {
   return (
