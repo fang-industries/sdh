@@ -7,7 +7,9 @@ export default function () {
   return (
     <Container title="About">
       <Image />
-      <About />
+      <div id="welcome">
+        <About />
+      </div>
       <Join />
     </Container>
   );
