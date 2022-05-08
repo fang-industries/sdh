@@ -193,6 +193,12 @@ export default function () {
               src="https://static.wixstatic.com/media/07639e_3ee67789c54d4ee99f2452e334e058c7~mv2.jpg/v1/crop/x_0,y_180,w_2000,h_2640/fill/w_400,h_528,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DSCF6477_edited.jpg"
               copyright="Sekolah Dian Harapan"
             />
+            <AssetCard
+              name="About Page Cover"
+              web="https://www.sdh.sch.id/"
+              src="https://static.wixstatic.com/media/07639e_a57e0d8f3e964008bfeeb830c8da521b~mv2.jpg/v1/fill/w_980,h_620,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/07639e_a57e0d8f3e964008bfeeb830c8da521b~mv2.jpg"
+              copyright="Sekolah Dian Harapan"
+            />
           </div>
         </div>
       </div>

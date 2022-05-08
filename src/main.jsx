@@ -1,9 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from "react";
+import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import Index from './pages/Index'
+import Index from "./pages/Index";
 import Licenses from "./pages/licenses/Index";
+import About from "./pages/about/Index";
 
 // #region Import license
 import LicensesReact from "./pages/licenses/React";
@@ -35,6 +36,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Index />} />
+        <Route path="/about" element={<About />} />
         <Route path="/licenses" element={<Licenses />} />
         // #region licenses
         <Route path="/licenses/react" element={<LicensesReact />} />
