@@ -4,9 +4,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-import AlumniAlexa from "../../../assets/media/images/components/modules/pages/home/alumni/alexa.png";
-import AlumniJovan from "../../../assets/media/images/components/modules/pages/home/alumni/jovan.png";
-import AlumniTimothy from "../../../assets/media/images/components/modules/pages/home/alumni/timothy.png";
+import AlumniAlexa from "../../../assets/media/images/components/modules/pages/home/alumni/alexa.webp";
+import AlumniJovan from "../../../assets/media/images/components/modules/pages/home/alumni/jovan.webp";
+import AlumniTimothy from "../../../assets/media/images/components/modules/pages/home/alumni/timothy.webp";
 
 export default function () {
   const students = 12606275;

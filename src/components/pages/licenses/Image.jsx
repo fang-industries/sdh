@@ -1,4 +1,4 @@
-import Background from "../../../assets/media/images/pages/licenses/main-bg.jpg";
+import Background from "../../../assets/media/images/pages/licenses/main-bg.webp";
 export default function () {
   return (
     <img

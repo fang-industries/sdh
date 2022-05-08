@@ -14,7 +14,7 @@ import {
   faDrumstickBite,
 } from "@fortawesome/free-solid-svg-icons";
 import { useState, useEffect } from "react";
-import ChickenWeProclaim from "../../../assets/media/images/icons/chicken-we-proclaim.png";
+import ChickenWeProclaim from "../../../assets/media/images/icons/chicken-we-proclaim.webp";
 
 export default function () {
   const [year, setYear] = useState(0);

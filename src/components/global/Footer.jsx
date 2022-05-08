@@ -1,7 +1,7 @@
 import { faHeart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
-import FangIndustriesWhite from "../../assets/media/images/icons/fang-industries-white.png";
+import FangIndustriesWhite from "../../assets/media/images/icons/fang-industries-white.webp";
 
 export default function (props) {
   return (

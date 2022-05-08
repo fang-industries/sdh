@@ -5,7 +5,7 @@ import "tippy.js/dist/tippy.css";
 import "tippy.js/animations/shift-away.css";
 import "../../assets/styles/tippy.css";
 
-import logo from "../../assets/media/images/logo.png";
+import logo from "../../assets/media/images/icons/logo.webp";
 import {
   faInstagram,
   faTwitter,

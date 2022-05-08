@@ -1,4 +1,4 @@
-import VideoBG from "../../../assets/media/videos/pages/home/main-bg.mp4";
+import VideoBG from "../../../assets/media/videos/pages/home/main-bg.webm";
 
 export default function () {
   return (

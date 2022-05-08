@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export default function () {
   return (
     <div
-      className={`mx-4 mb-8 justify-between space-y-8 rounded-xl bg-[url('/src/assets/media/images/components/global/join/bg.jpg')] bg-cover bg-center p-8 font-semibold text-neutral-50 md:mx-16 md:mb-16 md:flex md:space-y-0`}
+      className={`mx-4 mb-8 justify-between space-y-8 rounded-xl bg-[url('/src/assets/media/images/components/global/join/bg.webp')] bg-cover bg-center p-8 font-semibold text-neutral-50 md:mx-16 md:mb-16 md:flex md:space-y-0`}
     >
       <div className="my-auto text-2xl">
         <p>Be a part of our lifelong,</p>
