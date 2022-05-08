@@ -1,4 +1,4 @@
-<img width="150" height="150" align="left" src="https://raw.githubusercontent.com/sekolah-daging-habituasi/web/src/assets/media/images/icons/logo.webp">
+<img width="150" height="150" align="left" src="https://raw.githubusercontent.com/sekolah-daging-habituasi/web/main/src/assets/media/images/icons/logo.webp">
 
 # Website for the imaginary school, Sekolah Daging Habituasi (SDH).
 
