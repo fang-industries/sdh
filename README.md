@@ -17,7 +17,5 @@ A week went by and it escalated to me remaking the school's website and replacin
 ## Deployment
 This website is deployed on Vercel, and is available at [sdh-ripoff.vercel.app](https://sdh-ripoff.vercel.app).
 
-As for assets, much love to GitHub for happily hosting all assets used, available at the [sekolah-daging-habituasi/assets](https://github.com/sekolah-daging-habituasi/assets) repository.
-
 ## License
 Code licensed under the MIT license. Feel free to do anything with the code, as long as it complies with the license.
