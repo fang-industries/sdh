@@ -100,7 +100,7 @@ export default function (props) {
           pls contact me first at{" "}
           <a
             href="mailto:jason@pnxl.dev"
-            className="underline hover:decoration-yellow-500"
+            className="underline hover:text-neutral-300 hover:decoration-yellow-500"
           >
             jason@pnxl.dev
           </a>{" "}
