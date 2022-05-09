@@ -4,6 +4,7 @@ import About from "../../components/pages/about/index/About";
 import History from "../../components/pages/about/index/History";
 import Verse from "../../components/pages/about/index/Verse";
 import Improvement from "../../components/pages/about/index/Improvement";
+import Development from "../../components/pages/about/index/Development";
 import Join from "../../components/global/Join";
 
 export default function () {
@@ -18,6 +19,7 @@ export default function () {
       </div>
       <Verse />
       <Improvement />
+      <Development />
       <Join />
     </Container>
   );
