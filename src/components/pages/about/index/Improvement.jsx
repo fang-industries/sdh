@@ -6,7 +6,7 @@ export default function () {
       <div className="space-y-8 md:flex md:space-x-16 md:space-y-0">
         <img
           src={Image}
-          alt="Founding members image"
+          alt="School improvement image"
           className="aspect-square h-fit rounded-xl object-cover object-center"
         />
         <div className="space-y-8">
