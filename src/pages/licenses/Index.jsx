@@ -211,6 +211,12 @@ export default function () {
               src="https://static.wixstatic.com/media/07639e_d9235a1c19fc4492b4bc4fc3e75b83f8~mv2.jpg/v1/crop/x_70,y_0,w_861,h_667/fill/w_400,h_310,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ypph_edited.jpg"
               copyright="Sekolah Dian Harapan"
             />
+            <AssetCard
+              name="School Improvement Picture"
+              web="https://www.sdh.sch.id/"
+              src="https://static.wixstatic.com/media/07639e_cfdb9cf6ada9489ea1432d4a937b6193~mv2.jpg/v1/crop/x_751,y_0,w_1498,h_2000/fill/w_400,h_534,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG_8558_edited.jpg"
+              copyright="Sekolah Dian Harapan"
+            />
           </div>
         </div>
       </div>
