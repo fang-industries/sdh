@@ -3,7 +3,7 @@
 # Website for the imaginary school, Sekolah Daging Habituasi (SDH).
 
 [![Vercel deployment status](https://img.shields.io/github/deployments/fang-industries/sdh/production?label=deployments&logo=vercel&logoColor=vercel)](https://sdh-ripoff.vercel.app)
-[![Licensed under](https://img.shields.io/github/license/sekolah-daging-habituasi/web)](https://github.com/fang-industries/sdh/blob/main/LICENSE)
+[![Licensed under](https://img.shields.io/github/license/fang-industries/sdh)](https://github.com/fang-industries/sdh/blob/main/LICENSE)
 [![Website status](https://img.shields.io/website?url=https%3A%2F%2Fsdh.pnxl.dev)](https://sdh.pnxl.dev)
 
 What initially started as an inside joke in my class, spiraled out of control and became a website!

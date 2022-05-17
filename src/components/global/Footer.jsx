@@ -30,7 +30,7 @@ export default function (props) {
                 sdh@pnxl.dev
               </a>
               <a
-                href="https://github.com/sekolah-daging-habituasi/"
+                href="https://github.com/fang-industries/"
                 className="underline hover:decoration-yellow-500 hover:decoration-2"
               >
                 GitHub Organisation
@@ -56,7 +56,7 @@ export default function (props) {
           <p className="text-lg font-medium">
             The website&apos;s full source code is available{" "}
             <a
-              href="https://github.com/sekolah-daging-habituasi/web"
+              href="https://github.com/fang-industries/sdh"
               className="underline hover:decoration-yellow-500 hover:decoration-2"
             >
               here
