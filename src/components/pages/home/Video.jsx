@@ -1,4 +1,5 @@
 import VideoBG from "../../../assets/media/videos/pages/home/main-bg.webm";
+import ImageBG from "../../../assets/media/images/pages/home/main-bg.webp";
 
 export default function () {
   return (
@@ -19,9 +20,10 @@ export default function () {
           </button>
         </div>
       </div>
-      <video autoPlay loop muted className="w-full opacity-80">
+      {/* <video autoPlay loop muted className="w-full opacity-80">
         <source src={VideoBG} />
-      </video>
+      </video> */}
+      <img src={ImageBG} className="w-full opacity-80" />
     </div>
   );
 }

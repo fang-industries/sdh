@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Index from "./pages/Index";
+import NotFound from "./pages/err/NotFound";
 import Licenses from "./pages/licenses/Index";
 import About from "./pages/about/Index";
 
@@ -88,7 +89,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           element={<LicensesFABrandIcons />}
         />
         // #endregion licenses
-        <Route path="*" element={<Index />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
