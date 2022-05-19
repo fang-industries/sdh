@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import Licenses from "./pages/licenses/Index";
 import About from "./pages/about/Index";
+import Licenses from "./pages/licenses/Index";
+import NotFound from "./pages/err/NotFound";
 
 // #region Import license
 import LicensesReact from "./pages/licenses/React";
@@ -39,6 +41,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/about" element={<About />} />
         <Route path="/about#welcome" element={<About />} />
         <Route path="/licenses" element={<Licenses />} />
+        <Route path="/about" element={<About />} />
         // #region licenses
         <Route path="/licenses/react" element={<LicensesReact />} />
         <Route path="/licenses/vite" element={<LicensesVite />} />
