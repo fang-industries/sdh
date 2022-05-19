@@ -193,6 +193,36 @@ export default function () {
               src="https://static.wixstatic.com/media/07639e_3ee67789c54d4ee99f2452e334e058c7~mv2.jpg/v1/crop/x_0,y_180,w_2000,h_2640/fill/w_400,h_528,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/DSCF6477_edited.jpg"
               copyright="Sekolah Dian Harapan"
             />
+            <AssetCard
+              name="About Page Cover"
+              web="https://www.sdh.sch.id/"
+              src="https://static.wixstatic.com/media/07639e_a57e0d8f3e964008bfeeb830c8da521b~mv2.jpg/v1/fill/w_980,h_620,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/07639e_a57e0d8f3e964008bfeeb830c8da521b~mv2.jpg"
+              copyright="Sekolah Dian Harapan"
+            />
+            <AssetCard
+              name="About Section Picture 2"
+              web="https://www.sdh.sch.id/"
+              src="https://static.wixstatic.com/media/07639e_5ef63e0cbfd34f78969295b47c7dd573~mv2.jpg/v1/crop/x_0,y_6,w_1500,h_1988/fill/w_400,h_530,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Laboratory_03_edited_edited_edited.jpg"
+              copyright="Sekolah Dian Harapan"
+            />
+            <AssetCard
+              name="Founding Members Picture"
+              web="https://www.sdh.sch.id/"
+              src="https://static.wixstatic.com/media/07639e_d9235a1c19fc4492b4bc4fc3e75b83f8~mv2.jpg/v1/crop/x_70,y_0,w_861,h_667/fill/w_400,h_310,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ypph_edited.jpg"
+              copyright="Sekolah Dian Harapan"
+            />
+            <AssetCard
+              name="School Improvement Picture"
+              web="https://www.sdh.sch.id/"
+              src="https://static.wixstatic.com/media/07639e_cfdb9cf6ada9489ea1432d4a937b6193~mv2.jpg/v1/crop/x_751,y_0,w_1498,h_2000/fill/w_400,h_534,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/IMG_8558_edited.jpg"
+              copyright="Sekolah Dian Harapan"
+            />
+            <AssetCard
+              name="Professional Development"
+              web="https://www.sdh.sch.id/"
+              src="https://static.wixstatic.com/media/07639e_82771a9b680e4b9a97f9454abc72f8fb~mv2.jpg/v1/fill/w_398,h_530,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/_MG_5730_edited_edited.jpg"
+              copyright="Sekolah Dian Harapan"
+            />
           </div>
         </div>
       </div>
