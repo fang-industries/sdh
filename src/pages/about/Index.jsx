@@ -4,6 +4,7 @@ import About from "../../components/pages/about/About";
 import History from "../../components/pages/about/History";
 import Quote from "../../components/pages/about/Quote";
 import Improvement from "../../components/pages/about/Improvement";
+import Development from "../../components/pages/about/Development";
 import Join from "../../components/global/Join";
 
 export default function () {
@@ -18,6 +19,7 @@ export default function () {
       </div>
       <Quote />
       <Improvement />
+      <Development />
       <Join />
     </Container>
   );
