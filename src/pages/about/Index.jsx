@@ -2,9 +2,8 @@ import Container from "../../components/global/Container";
 import Background from "../../assets/media/images/pages/about/index/main-bg.webp";
 import About from "../../components/pages/about/About";
 import History from "../../components/pages/about/History";
-import Statistics from "../../components/pages/about/Statistics";
+import Quote from "../../components/pages/about/Quote";
 import Alumni from "../../components/pages/about/Alumni";
-import AlumniResponsive from "../../components/pages/about/responsive/Alumni";
 import Join from "../../components/global/Join";
 
 export default function () {
@@ -17,9 +16,8 @@ export default function () {
       <div>
         <History />
       </div>
-      <Statistics />
+      <Quote />
       <Alumni />
-      <AlumniResponsive />
       <Join />
     </Container>
   );
