@@ -38,9 +38,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
-        <Route path="/about#welcome" element={<About />} />
         <Route path="/licenses" element={<Licenses />} />
-        <Route path="/about" element={<About />} />
         // #region licenses
         <Route path="/licenses/react" element={<LicensesReact />} />
         <Route path="/licenses/vite" element={<LicensesVite />} />
