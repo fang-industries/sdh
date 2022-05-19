@@ -14,7 +14,7 @@ export default function () {
       <div id="welcome">
         <About />
       </div>
-      <div>
+      <div id="history">
         <History />
       </div>
       <Quote />

@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import "tippy.js/animations/shift-away.css";
@@ -85,7 +86,7 @@ export default function (props) {
             <Tippy
               content={
                 <div className="flex flex-col px-1 text-center">
-                  <Link to="/about#welcome">
+                  <HashLink to="/about#welcome">
                     <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faPeopleGroup}
@@ -93,9 +94,9 @@ export default function (props) {
                       />
                       <p className="my-auto ml-4">About Us</p>
                     </div>
-                  </Link>
+                  </HashLink>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
-                  <Link to="/about#history">
+                  <HashLink to="/about#history">
                     <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faCalendarDay}
@@ -103,7 +104,7 @@ export default function (props) {
                       />
                       <p className="my-auto ml-4">History</p>
                     </div>
-                  </Link>
+                  </HashLink>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
                   <Link to="/about/networks">
                     <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
@@ -150,7 +151,7 @@ export default function (props) {
             <Tippy
               content={
                 <div className="flex flex-col px-1 text-center">
-                  <Link to="/admissions#register">
+                  <HashLink to="/admissions#register">
                     <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faAddressCard}
@@ -158,9 +159,9 @@ export default function (props) {
                       />
                       <p className="my-auto ml-4">Registration</p>
                     </div>
-                  </Link>
+                  </HashLink>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
-                  <Link to="/admissions#visit">
+                  <HashLink to="/admissions#visit">
                     <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faSchool}
@@ -168,7 +169,7 @@ export default function (props) {
                       />
                       <p className="my-auto ml-4">Visit SDH</p>
                     </div>
-                  </Link>
+                  </HashLink>
                 </div>
               }
               placement="bottom"

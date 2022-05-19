@@ -292,7 +292,7 @@ export default function (props) {
                   </div>
                 </Link>
                 <div className="mx-2 border-b border-neutral-300 dark:border-neutral-700"></div>
-                <Link to="/about#welcome">
+                <HashLink to="/about#welcome">
                   <div className="py-3 px-4">
                     <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon
@@ -302,9 +302,9 @@ export default function (props) {
                       <p className="font-medium">About Us</p>
                     </div>
                   </div>
-                </Link>
+                </HashLink>
                 <div className="mx-2 border-b border-neutral-300 dark:border-neutral-700"></div>
-                <Link to="/about#history">
+                <HashLink to="/about#history">
                   <div className="py-3 px-4">
                     <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon
@@ -314,7 +314,7 @@ export default function (props) {
                       <p className="font-medium">History</p>
                     </div>
                   </div>
-                </Link>
+                </HashLink>
                 <div className="mx-2 border-b border-neutral-300 dark:border-neutral-700"></div>
                 <Link to="/about/networks">
                   <div className="py-3 px-4">
@@ -409,7 +409,7 @@ export default function (props) {
                   </div>
                 </Link>
                 <div className="mx-2 border-b border-neutral-300 dark:border-neutral-700"></div>
-                <Link to="/admissions#register">
+                <HashLink to="/admissions#register">
                   <div className="py-3 px-4">
                     <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon
@@ -419,16 +419,16 @@ export default function (props) {
                       <p className="font-medium">Registration</p>
                     </div>
                   </div>
-                </Link>
+                </HashLink>
                 <div className="mx-2 border-b border-neutral-300 dark:border-neutral-700"></div>
-                <Link to="/admissions#visit">
+                <HashLink to="/admissions#visit">
                   <div className="py-3 px-4">
                     <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon icon={faSchool} className="my-auto" />
                       <p className="font-medium">Visit SDH</p>
                     </div>
                   </div>
-                </Link>
+                </HashLink>
               </div>
               <div>
                 <button onClick={tappedAdmissions}>
