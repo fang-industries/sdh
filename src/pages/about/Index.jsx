@@ -3,7 +3,6 @@ import Background from "../../assets/media/images/pages/about/index/main-bg.webp
 import About from "../../components/pages/about/About";
 import History from "../../components/pages/about/History";
 import Quote from "../../components/pages/about/Quote";
-import Alumni from "../../components/pages/about/Alumni";
 import Join from "../../components/global/Join";
 
 export default function () {
@@ -17,7 +16,6 @@ export default function () {
         <History />
       </div>
       <Quote />
-      <Alumni />
       <Join />
     </Container>
   );
