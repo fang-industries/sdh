@@ -152,6 +152,36 @@ export default function () {
               copyright="Thapanee Srisawat"
             />
             <AssetCard
+              name="Co-workers on a Zoom call"
+              web="https://unsplash.com/photos/XdWkFaHI97c"
+              src="https://images.unsplash.com/photo-1633113214698-485cdb2f56fd?ixlib=rb-1.2.1&dl=surface-XdWkFaHI97c-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+              copyright="Surface"
+            />
+            <AssetCard
+              name="Group of friends at cafe"
+              web="https://unsplash.com/photos/-uHVRvDr7pg"
+              src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-1.2.1&dl=brooke-cagle--uHVRvDr7pg-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+              copyright="Brooke Cagle"
+            />
+            <AssetCard
+              name="Five children smiling"
+              web="https://unsplash.com/photos/AEaTUnvneik"
+              src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&dl=larm-rmah-AEaTUnvneik-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+              copyright="Larm Rmah"
+            />
+            <AssetCard
+              name="Group of women on floor"
+              web="https://unsplash.com/photos/uD7ZRjhgwLo"
+              src="https://images.unsplash.com/photo-1587616211892-f743fcca64f9?ixlib=rb-1.2.1&dl=zoo_monkey-uD7ZRjhgwLo-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+              copyright="zoo_monkey"
+            />
+            <AssetCard
+              name="Woman carrying textbook"
+              web="https://unsplash.com/photos/iQPr1XkF5F0"
+              src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?ixlib=rb-1.2.1&dl=javier-trueba-iQPr1XkF5F0-unsplash.jpg&q=80&fm=jpg&crop=entropy&cs=tinysrgb"
+              copyright="Javier Trueba"
+            />
+            <AssetCard
               name="Poppins"
               web="https://fonts.google.com/specimen/Poppins"
               license="SIL Open Font"
@@ -168,12 +198,6 @@ export default function () {
               web="https://fontawesome.com/"
               license="SIL Open Font"
               copyright="2022 Fonticons, Inc."
-            />
-            <AssetCard
-              name="Homepage Video BG"
-              web="https://www.sdh.sch.id/"
-              src="https://video.wixstatic.com/video/07639e_2763fc25be1645908e86bca5ad2c5cd4/720p/mp4/file.mp4"
-              copyright="Sekolah Dian Harapan"
             />
             <AssetCard
               name="FontAwesome Solid Icons"
