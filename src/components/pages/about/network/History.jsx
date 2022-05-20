@@ -5,7 +5,6 @@ export default function () {
     <div className="px-8 py-4 md:py-16 md:px-16">
       <div className="space-y-8 md:flex md:space-x-16 md:space-y-0">
         <div className="space-y-8 text-white">
-          <p className="text-4xl font-bold">Our History</p>
           <p className="rounded bg-yellow-500 px-3 text-lg font-semibold tracking-wide text-white">
             The founding family of Sekolah Daging Habituasi
           </p>

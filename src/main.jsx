@@ -3,8 +3,8 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Index from "./pages/Index";
-import NotFound from "./pages/err/NotFound";
-import Licenses from "./pages/licenses/Index";
+import NotFound from "./pages/NotFound";
+import Licenses from "./pages/Licenses";
 import About from "./pages/about/Index";
 import Network from "./pages/about/Network";
 

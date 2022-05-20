@@ -1,5 +1,5 @@
-import Container from "../../components/global/Container";
-import Join from "../../components/global/Join";
+import Container from "../components/global/Container";
+import Join from "../components/global/Join";
 
 export default function () {
   return (
