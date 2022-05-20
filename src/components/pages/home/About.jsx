@@ -20,7 +20,7 @@ export default function () {
         <img
           src={AboutImg}
           alt="About image"
-          className="aspect-square h-fit rounded-xl object-cover md:aspect-auto md:h-[37rem]"
+          className="aspect-square h-fit rounded-xl object-cover md:aspect-[3/4] md:h-[37rem]"
         />
         <div className="space-y-8">
           <div>

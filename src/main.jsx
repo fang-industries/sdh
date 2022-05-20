@@ -6,6 +6,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/err/NotFound";
 import Licenses from "./pages/licenses/Index";
 import About from "./pages/about/Index";
+import Networks from "./pages/about/Networks";
 
 // #region Import license
 import LicensesReact from "./pages/licenses/React";
@@ -38,6 +39,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
+        <Route path="/about/networks" element={<Networks />} />
         <Route path="/licenses" element={<Licenses />} />
         // #region licenses
         <Route path="/licenses/react" element={<LicensesReact />} />

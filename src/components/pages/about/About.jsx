@@ -7,7 +7,7 @@ export default function () {
         <img
           src={Img}
           alt="About image"
-          className="aspect-square h-fit rounded-xl object-cover"
+          className="aspect-square h-fit w-80 rounded-xl object-cover"
         />
         <div className="space-y-8 text-white">
           <p className="text-4xl font-bold">About Us</p>
