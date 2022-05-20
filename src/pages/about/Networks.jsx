@@ -1,6 +1,6 @@
 import Container from "../../components/global/Container";
 import Background from "../../assets/media/images/pages/about/networks/handshake.webp";
-import About from "../../components/pages/about/index/About/About";
+import About from "../../components/pages/about/index/About";
 import History from "../../components/pages/about/index/History";
 import Quote from "../../components/pages/about/index/Quote";
 import Improvement from "../../components/pages/about/index/Improvement";
