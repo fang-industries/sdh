@@ -7,6 +7,7 @@ import "swiper/css/effect-fade";
 import AlumniAlexa from "../../../../assets/media/images/components/modules/pages/home/alumni/alexa.webp";
 import AlumniJovan from "../../../../assets/media/images/components/modules/pages/home/alumni/jovan.webp";
 import AlumniTimothy from "../../../../assets/media/images/components/modules/pages/home/alumni/timothy.webp";
+import AlumniKathleen from "../../../../assets/media/images/components/modules/pages/home/alumni/kathleen.webp";
 
 export default function () {
   const students = 12606275;
@@ -79,6 +80,30 @@ export default function () {
               <div className="text-yellow-500">Jovannes Adryan</div>
               <div className="text-neutral-7000">
                 SDH Daan Mogot, Class of 1959
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="rounded-xl bg-neutral-100 p-8 dark:bg-neutral-800">
+          <img
+            className="mx-auto mb-8 h-32 w-32 rounded-full object-cover"
+            src={AlumniKathleen}
+            alt="Picture of Kathleen Kaslim"
+          />
+          <div className="space-y-8 text-left">
+            <p className="text-lg font-medium">
+              There are places all over Palembang and in every province for
+              dedicated roosters to serve the branch of corrupt metropolice
+              department. I include several in my intern program every summer.
+              Pengkhotbah Habituasi has gave me the push to become a Feng Shui
+              consultant.
+            </p>
+            <div className="font-medium">
+              <div className="text-yellow-500">
+                Kathleen Kaslim, Feng Shui consultant
+              </div>
+              <div className="text-neutral-7000">
+                SPH Palembang, Class of 1352
               </div>
             </div>
           </div>
