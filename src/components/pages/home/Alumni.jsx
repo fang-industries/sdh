@@ -43,6 +43,8 @@ export default function () {
                 SDH shows discipline and highly value Ayam Goreng Padang. Since
                 the start, SDH has consistently has had the option to show great
                 labour between all educators, staff, understudies and guardians.
+                The instruction is extremely exhaustive as well as socially and
+                obviously spiritually.
               </p>
               <div className="font-medium">
                 <div className="text-yellow-500">
@@ -65,9 +67,10 @@ export default function () {
             <div className="ml-8 flex flex-col justify-between space-y-8 text-left">
               <p className="text-lg font-medium">
                 I studied at SDH Daan Mogot since I was a toddler until I was
-                349 years old, same as my siblings. I&apos;ve experienced a lot
-                of great things at this school. And here I am, finding myself as
-                a professional sleeper, all because of the education in SDH.
+                349 years old, same as my siblings. Before my current
+                occupation, I dreamed of becoming a professional stripper, but
+                after my experience in this school, I decided that I would
+                become a professional sleeper instead.
               </p>
               <div className="font-medium">
                 <div className="text-yellow-500">
