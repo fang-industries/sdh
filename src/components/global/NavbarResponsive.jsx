@@ -316,7 +316,7 @@ export default function (props) {
                   </div>
                 </HashLink>
                 <div className="mx-2 border-b border-neutral-300 dark:border-neutral-700"></div>
-                <Link to="/about/networks">
+                <Link to="/about/network">
                   <div className="py-3 px-4">
                     <div className="flex flex-row space-x-4">
                       <FontAwesomeIcon icon={faComments} className="my-auto" />

@@ -106,13 +106,13 @@ export default function (props) {
                     </div>
                   </HashLink>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
-                  <Link to="/about/networks">
+                  <Link to="/about/network">
                     <div className="flex flex-row justify-between p-2 font-medium transition duration-300 ease-in-out hover:text-sky-600 dark:hover:text-yellow-400">
                       <FontAwesomeIcon
                         icon={faCircleNodes}
                         className="my-auto mr-4"
                       />
-                      <p className="my-auto ml-4">Networks</p>
+                      <p className="my-auto ml-4">Network</p>
                     </div>
                   </Link>
                   <div className="border-[1px] border-b border-neutral-500 border-opacity-50" />
