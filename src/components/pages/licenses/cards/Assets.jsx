@@ -59,16 +59,7 @@ export default function (props) {
       </div>
       <div className="my-1 font-medium text-neutral-600 dark:text-neutral-400">
         {props.license ? (
-          <p>
-            Released under the{" "}
-            <Link
-              to={`/licenses/${props.name.toLowerCase().replace(/\s/g, "")}`}
-              className="underline hover:text-neutral-700 hover:decoration-yellow-500 dark:hover:text-neutral-300"
-            >
-              {props.license} License
-            </Link>
-            .
-          </p>
+          <p>Released under the {props.license} License.</p>
         ) : (
           <p>
             No license. Please{" "}
