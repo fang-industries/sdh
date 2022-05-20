@@ -1,4 +1,4 @@
-import Img from "../../../assets/media/images/pages/about/index/science.webp";
+import Img from "../../../../assets/media/images/pages/about/index/science.webp";
 
 export default function () {
   return (

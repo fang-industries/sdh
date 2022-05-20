@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDrumstickBite } from "@fortawesome/free-solid-svg-icons";
-import ChickenWeProclaim from "../../../assets/media/images/icons/chicken-we-proclaim.webp";
+import ChickenWeProclaim from "../../../../assets/media/images/icons/chicken-we-proclaim.webp";
 
 export default function () {
   return (

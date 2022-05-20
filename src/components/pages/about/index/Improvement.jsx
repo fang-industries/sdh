@@ -1,4 +1,4 @@
-import Img from "../../../assets/media/images/pages/about/index/school-improvement.webp";
+import Img from "../../../../assets/media/images/pages/about/index/school-improvement.webp";
 
 export default function () {
   return (

@@ -1,4 +1,4 @@
-import Img from "../../../assets/media/images/pages/about/index/founding-member.webp";
+import Img from "../../../../assets/media/images/pages/about/index/founding-member.webp";
 
 export default function () {
   return (

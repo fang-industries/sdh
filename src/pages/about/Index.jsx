@@ -2,7 +2,7 @@ import Container from "../../components/global/Container";
 import Background from "../../assets/media/images/pages/about/index/main-bg.webp";
 import About from "../../components/pages/about/index/About";
 import History from "../../components/pages/about/index/History";
-import Quote from "../../components/pages/about/Quote";
+import Quote from "../../components/pages/about/index/Quote";
 import Improvement from "../../components/pages/about/index/Improvement";
 import Development from "../../components/pages/about/index/Development";
 import Join from "../../components/global/Join";

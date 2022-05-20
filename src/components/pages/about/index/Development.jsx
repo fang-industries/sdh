@@ -1,4 +1,4 @@
-import Img from "../../../assets/media/images/pages/about/index/professional-development.webp";
+import Img from "../../../../assets/media/images/pages/about/index/professional-development.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAtom,
