@@ -16,29 +16,32 @@ export default function () {
 
   return (
     <div className="bg-sky-900 px-8 py-8 md:py-16 md:px-32">
-      <div className="space-y-8 md:flex md:space-x-16 md:space-y-0">
+      <div className="md:flex md:space-x-16 md:space-y-0">
         <div className="text-white">
-          <p className="text-center text-4xl font-bold">Our Network</p>
-          <p className="my-8">
-            SDH is a part of a larger family of Christian academic institutions
-            across Indonesia under the Pabrik Roti Hutan Education Foundation.
-            The Pelita Harapan Education Foundation strives for education that
-            is rooted in the Bible and Biblical Worldview while transforming the
-            nation through the foundation's vision, mission and core values.
-          </p>
-          <div className="grid h-56 gap-8 md:grid-cols-4">
-            <Card icon={faMapLocation} number={5} stat="Campuses Built" />
-            <Card
-              icon={faPeopleGroup}
-              number={students.toLocaleString()}
-              stat="Active Students"
-            />
-            <Card icon={faCertificate} number="8" stat="Qualified Teachers" />
-            <Card
-              icon={faUsers}
-              number={staff.toLocaleString()}
-              stat="Valuable Staff"
-            />
+          <div className="space-y-8">
+            <p className="text-center text-4xl font-bold">Our Network</p>
+            <p className="">
+              SDH is a part of a larger family of Christian academic
+              institutions across Indonesia under the Pabrik Roti Hutan
+              Education Foundation. The Pelita Harapan Education Foundation
+              strives for education that is rooted in the Bible and Biblical
+              Worldview while transforming the nation through the foundation's
+              vision, mission and core values.
+            </p>
+            <div className="grid h-56 gap-8 md:grid-cols-4">
+              <Card icon={faMapLocation} number={5} stat="Campuses Built" />
+              <Card
+                icon={faPeopleGroup}
+                number={students.toLocaleString()}
+                stat="Active Students"
+              />
+              <Card icon={faCertificate} number="8" stat="Qualified Teachers" />
+              <Card
+                icon={faUsers}
+                number={staff.toLocaleString()}
+                stat="Valuable Staff"
+              />
+            </div>
           </div>
           <p className="mt-2 text-right text-sm text-sky-600">
             Data collected at {date}
