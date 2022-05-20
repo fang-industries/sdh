@@ -122,7 +122,7 @@ export default function () {
                 There are places all over Palembang and in every province for
                 dedicated roosters to serve the branch of corrupt metropolice
                 department. I include several in my intern program every summer.
-                Pengkhotbah Habituasi has gave me the push to become a Feng Shui
+                Penguin Habituasi has gave me the push to become a Feng Shui
                 consultant.
               </p>
               <div className="font-medium">

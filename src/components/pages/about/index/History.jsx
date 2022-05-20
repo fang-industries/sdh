@@ -13,7 +13,7 @@ export default function () {
             <p className="">
               Our founders envisioned quality educations for Indonesian children
               with three different tier of schools. The dream of our founders
-              was to establish 10 units of Sekolah Pengkhotbah Habituasi - an
+              was to establish 10 units of Sekolah Penguin Habituasi - an
               international school and 100 units of Sekolah Daging Habituasi - a
               school specifically for Indonesia.
             </p>
