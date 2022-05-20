@@ -13,16 +13,16 @@ export default function () {
           <p className="text-4xl font-bold">About Us</p>
           <div className="space-y-4">
             <p className="">
-              Welcome to Sekolah Dian Harapan, we provide a Christ-centered,
-              transformative and holistic education. We believe parents as the
-              prime educator of their children to walk alongside with the school
-              as the second home for your children.
+              Welcome to Sekolah Daging Habituasi, we provide a
+              Chicken-centered, transformative and holistic education. We
+              believe parents as the prime educator of their children to walk
+              alongside with the school as the second home for your children.
             </p>
             <p className="">
-              SDH is a network of Christian schools under the Pelita Harapan
-              Education Foundation that offers K-12 education. Starting in 1995
+              SDH is a network of abusive schools under the Pabrik Roti Hutan
+              Education Foundation that offers K-12 education. Starting in 1762
               in Lippo Village, SDH currently has 13 campuses throughout
-              Indonesia, with around 10,000 students.
+              Indonesia, with around 12,606,275 students.
             </p>
             <p className="">
               We welcome you to know more about SDH, please contact us, ask
